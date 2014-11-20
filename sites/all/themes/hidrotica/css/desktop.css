@@ -1,0 +1,63 @@
+/* CSS para layout desktop */
+
+@media only screen and (min-width: 60em) { /* > 960 */
+
+.pre-header{
+	min-height: 46px;
+	height: 46px;
+}
+
+
+.pre-header .pre-header-grid{
+	width: 1000px;
+	padding: 0;
+	height: 100%;
+}
+
+.pre-header .pre-header-grid #block-block-1{
+	width: 	60px;
+	float: left;
+
+}
+
+.pre-header .pre-header-grid #block-search-form{
+	width: 202px;
+	float: left;
+	padding: 6px 15px 0;
+	height: 100%;
+	border-right: 1px solid #fff;
+	margin-left: 350px;
+
+	
+}
+
+.pre-header .pre-header-grid #block-block-2{
+	width: 143px;
+	float: left;
+	padding: 0 0 0 7px;
+	border-right: 1px solid #fff;
+	height: 100%;
+}
+.pre-header .pre-header-grid #block-block-3{
+	width: 244px;
+	float: left;
+	border-right: 1px solid #fff;
+	height: 100%;
+	padding: 0 0 0 8px;
+}
+
+/*  Header */
+
+.header .grid{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#block-system-main-menu{
+	width: 600px;
+	float: right;
+}
+
+
+}

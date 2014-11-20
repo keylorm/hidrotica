@@ -1,0 +1,216 @@
+/* CSS Global para todo el sitio */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700);
+
+
+body {
+	margin-left: 0 ;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+a:link,
+a:visited {
+  border-bottom: none;
+}
+a:hover{
+	background-color: transparent;
+}
+
+/* Preheader */
+.pre-header{
+	background-color: #01A2D2;
+}
+
+.pre-header .pre-header-grid{
+	width: 100%;
+	padding: 0 4%;
+	margin: 0 auto;
+}
+
+.pre-header .pre-header-grid #block-block-1{
+	width: 80%;
+	margin: 10px auto 0;
+	height: 27px;
+}
+
+.pre-header .pre-header-grid #block-block-1 .preheader-redes-box{
+	width: 100%;
+}
+.pre-header .pre-header-grid #block-block-1 .preheader-redes-box .redes{
+	float: left;
+	width: 27px;
+}
+
+.pre-header .pre-header-grid #block-block-1 .preheader-redes-box .redes a{
+	
+	display: block;
+	transition: all 0.2s ease 0s;
+	-webkit-transition: all 0.2s ease 0s;
+}
+
+.pre-header .pre-header-grid #block-block-1 .preheader-redes-box .redes a:hover{
+	transform: translate(0px, -2px);
+	-ms-transform: translate(0px, -2px); /* IE 9 */
+    -webkit-transform: translate(0px, -2px);
+}
+
+.pre-header .pre-header-grid #block-block-1 .preheader-redes-box .redes.redes-linkedin {
+    margin-right: 5px;
+}
+
+.pre-header .pre-header-grid #block-search-form{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.pre-header .pre-header-grid #block-search-form input#edit-search-block-form--2{
+	border: 0;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #017D9D;
+	width: 173px;
+	height: 33px;
+	font-family: 'Roboto', sans-serif;
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 14px;
+	text-transform: uppercase;
+	line-height: normal;
+	padding: 0 8px;
+}
+.pre-header .pre-header-grid #block-search-form label{
+	display: none;
+}
+
+.pre-header .pre-header-grid #block-search-form #edit-actions{
+	position: absolute;
+    right: 6px;
+    top: 3px;
+}
+
+.pre-header .pre-header-grid #block-search-form #search-block-form{
+	position: relative;
+}
+
+.pre-header .pre-header-grid #block-block-2{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.pre-header .pre-header-grid #block-block-2 a,
+.pre-header .pre-header-grid #block-block-2 a:hover,
+.pre-header .pre-header-grid #block-block-2 a:visited{
+	font-family: 'Roboto', sans-serif;
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 13px;
+}
+	
+.pre-header .pre-header-grid #block-block-2 .telefono-box-inner{
+	padding-left: 28px;
+	width: 100%;
+	background-color: transparent;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-image: url(../images/preheader-telefono-icon.png);
+}
+
+.pre-header .pre-header-grid #block-block-2 .preheader-telefono-box {
+	height: 100%;
+	 padding-top: 8px;	
+}
+
+.pre-header .pre-header-grid #block-block-3{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.pre-header .pre-header-grid #block-block-3 a,
+.pre-header .pre-header-grid #block-block-3 a:hover,
+.pre-header .pre-header-grid #block-block-3 a:visited{
+	color: #ffffff;
+    display: block;
+    font-family: "Roboto",sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.pre-header .pre-header-grid #block-block-3 .correos-box-inner{
+	padding-left: 32px;
+	width: 100%;
+	background-color: transparent;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-image: url(../images/preheader-correos-icon.png);
+}
+
+.pre-header .pre-header-grid #block-block-3 .preheader-correos-box{
+    padding-top: 6px;
+}
+
+
+
+/* Header */
+
+.header{
+	background-color: #ffffff;
+	border-bottom: 6px solid #00B052;
+	min-height: 155px;
+}
+
+.header .grid{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 4%;
+}
+
+#block-system-main-menu{
+
+}
+#block-system-main-menu ul {
+	margin: 0;
+	padding: 0;	
+}
+
+#block-system-main-menu ul li{
+	display: inline-block;
+	padding:0;
+	margin: 0;
+	list-style-type: none;
+}
+
+#block-system-main-menu ul li a{
+	font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 16px;
+    color: #6D6E71;
+}
+
+#block-system-main-menu ul li.menu-218{
+	width: 32px;	
+
+}
+
+#block-system-main-menu ul li.menu-591{
+	width: 55px;
+
+}
+
+#block-system-main-menu ul li.menu-592{
+	 width: 74px;
+}
+
+#block-system-main-menu ul li.menu-593{
+	width: 78px;
+}
+
+#block-system-main-menu ul li.menu-594{
+	width: 90px;
+}
+
+#block-system-main-menu ul li.menu-595{
+	width: 68px;
+}
