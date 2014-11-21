@@ -461,16 +461,25 @@ a:hover{
 }
 
 .prefooter .sucursal .info-sucursal p{
-	margin: 0;
-	font-family: 'Exo 2', sans-serif;
-	font-size: 14px;
-	font-weight: 600;
-	color: #AFAFAF;
+	color: #afafaf;
+    font-family: "Exo 2",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    margin: 0;
 }
 
 .prefooter .sucursal .info-sucursal p a{
-	margin: 0;
+
+	transition: all 0.4s ease 0s;
+	color: #afafaf;
 }
 
 .field-name-field-banner-proyectos-servicios {float: left;}
 .field-name-field-image .field-label {display: none;}
+.prefooter .sucursal .info-sucursal p a:hover{
+
+	color: #01a2d2;
+}
+
+.field-name-field-banner-proyectos-servicios {float: left;}
