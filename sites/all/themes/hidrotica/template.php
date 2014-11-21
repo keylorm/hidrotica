@@ -91,7 +91,9 @@ function hidrotica_preprocess_html(&$variables) {
     drupal_add_css(drupal_get_path('theme', 'hidrotica') . '/css/normalize.css', array('group' => CSS_SYSTEM, 'weight' => -100));
   }
 
-
+  //agregar javascript de flexslider
+  drupal_add_js('/sites/all/libraries/flexslider/' . 'jquery.flexslider.js', array('group' => JS_THEME, 'every_page' => TRUE));
+  drupal_add_css('/sites/all/libraries/flexslider/' . 'flexslider.css', array('group' => CSS_SYSTEM, 'weight' => -100));
 }
 
 /**
@@ -148,6 +150,11 @@ function hidrotica_form_alter(&$form, &$form_state, $form_id) {
 
    }
 }
+
+function hidrotica_preprocess_field(&$vars) {
+  //dpm($vars);
+}
+
 
 function hidrotica_menu_link(array $variables) {
 //add class for li
