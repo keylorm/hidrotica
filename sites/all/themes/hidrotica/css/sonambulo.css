@@ -15,8 +15,9 @@ body {
 }
 .header .grid,
 .main-content,
-.footer {
-  max-width: 70em;
+.footer,
+.below-content .grid{
+  max-width: 62.5em;
   margin: 0 auto;
   overflow: hidden;
 }
