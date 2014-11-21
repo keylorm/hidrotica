@@ -108,4 +108,54 @@
     min-height: 155px;
 }
 
+.footer .grid{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.footer #block-menu-block-1{
+    float: left;
+    width: 572px;
+}
+
+
+.footer #block-menu-block-1 ul li.menu-218{
+	margin-right: 30px;
+    width: 32px;
+    height: 30px;
+
+}
+
+.footer #block-menu-block-1 ul li.menu-591{
+	padding-right: 18px;
+    width: 85px;
+
+}
+
+.footer #block-menu-block-1 ul li.menu-592{
+	 padding-right: 22px;
+    width: 112px;
+}
+
+.footer #block-menu-block-1 ul li.menu-593{
+	padding-right: 24px;
+    width: 110px;
+}
+
+.footer #block-menu-block-1 ul li.menu-594{
+	padding-right: 20px;
+    width: 126px;
+}
+
+.footer #block-menu-block-1 ul li.menu-595{
+	width: 70px;
+}
+
+.prefooter .grid{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+}
+
 }

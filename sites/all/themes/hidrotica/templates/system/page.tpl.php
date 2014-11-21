@@ -123,6 +123,12 @@
   </section>
 <?php endif; // end Below Content ?>
 
+<div class="prefooter" role="contentinfo">
+  <div class="grid">
+    <?php print render($page['prefooter']); ?>
+  </div>
+</div>
+
 <footer class="footer" role="contentinfo">
   <div class="grid">
     <?php print render($page['footer']); ?>
