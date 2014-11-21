@@ -84,6 +84,13 @@
     <a id="main-content"></a>
     <div class="main" role="main">
       <?php print render($title_prefix); ?>
+
+      <?php //mostrar el icono del detalle del servicio-proyecto 
+        if (isset($node) && $node->type == "proyectos_y_servicios"){
+          print render(field_view_field('node', $node, 'field_image')); 
+        }
+      ?>  
+
       <?php if ($title): ?><h1 class="title" id="page-title"><?php print $title; ?></h1><?php endif; ?>
       <?php print render($title_suffix); ?>
 
