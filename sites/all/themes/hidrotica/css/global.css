@@ -1,15 +1,13 @@
 /* CSS Global para todo el sitio */
+@import url(http://fonts.googleapis.com/css?family=Exo+2:400,300,600,700|Roboto:400,300,700);
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700);
 
 html {
  border-top: none; 
 }
 
 body {
-	margin-left: 0 ;
-	margin-right: 0;
-	margin-top: 0;
+	 margin: 0;
 }
 
 a:link,
@@ -245,7 +243,231 @@ a:hover{
 	width: 70px;
 }
 
+
+.footer{
+	max-width: 100%;
+    width: 100%;
+	margin: 0;
+	background-color: #414042;
+	min-height: 520px;
+	padding-top: 26px;
+}
+
 .parrafo-izq, .parrafo-der {
 	float: left;
 	width: 49.5%;	
+
+}
+
+.footer .grid{
+	width: 100%;
+	padding: 0 4%;
+	margin: 0 auto;
+}
+
+.footer #block-menu-block-1{
+    margin-top: 8px;
+}
+
+.footer #block-menu-block-1 ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer #block-menu-block-1 ul li{
+	display: inline-block;
+	padding:0;
+	margin: 0;
+	list-style-type: none;
+	height: 30px;
+	float: left;
+}
+
+.footer #block-menu-block-1 ul li a{
+	font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 16px;
+    color: #AFAFAF;
+    transition: all 0.2s ease 0s;
+	-webkit-transition: all 0.2s ease 0s;
+}
+.footer #block-menu-block-1 ul li a:hover{
+	
+    color: #01A2D2;
+}
+.footer #block-menu-block-1 ul li a.active{
+	color: #01A2D2;
+}
+
+.footer #block-menu-block-1 ul li.menu-218{
+	margin-right: 24px;
+    width: 32px;
+    height: 30px;
+
+}
+.footer #block-menu-block-1 ul li.menu-218 a{
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: left -2px;
+	background-image: url(../images/logo-home-menu-footer.png);
+	overflow: hidden;
+    padding-left: 35px;
+    width: 32px;
+    height: 100%;
+}
+
+.footer #block-menu-block-1ul li.menu-591{
+	padding-right: 18px;
+    width: 83px;
+
+}
+
+.footer #block-menu-block-1 ul li.menu-592{
+	 padding-right: 20px;
+    width: 106px;
+}
+
+.footer #block-menu-block-1 ul li.menu-593{
+	padding-right: 24px;
+    width: 108px;
+}
+
+.footer #block-menu-block-1 ul li.menu-594{
+	padding-right: 20px;
+    width: 120px;
+}
+
+.footer #block-menu-block-1 ul li.menu-595{
+	width: 70px;
+}
+
+.footer #block-block-4{
+	width: 224px;
+	float: right;
+	text-align: right;
+}
+
+.footer #block-block-4 .correo-box a{
+	display: block;
+	font-family: "Roboto",sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #AFAFAF;
+}
+
+.footer #block-block-4 .correo-box{
+	width: 100%;
+	padding-left: 30px;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-position: left 2px;
+	background-image: url(../images/footer-correo-icon.png);
+}
+
+.footer #block-block-4 .redes-box .redes-box-linkedin,
+.footer #block-block-4 .redes-box .redes-box-youtube{
+	width: 36px;
+	float: left;
+}
+
+.footer #block-block-4 .redes-box .redes-box-linkedin{
+	margin-right: 5px;
+}
+
+.footer #block-block-4 .redes-box  {
+    float: right;
+    width: 78px;
+    margin-top: 10px;
+}
+
+.footer #block-block-4 .redes-box a{
+	transition: all 0.2s linear 0s;
+	-webkit-transition: all 0.2s linear 0s;
+	display: block;
+}
+
+.footer #block-block-4 .redes-box a:hover{
+	transform: translate(0px,-2px);
+	ms-transform: translate(0px, -2px); /* IE 9 */
+    -webkit-transform: translate(0px, -2px);
+}
+
+#imageData #bottomNav{
+	display: none !important;
+}
+
+.prefooter{
+	min-height: 88px;
+	width: 100%;
+	max-width: 100%;
+	background-color: #313032;
+}
+
+.prefooter .grid{
+	width: 100%;
+	padding: 0 4%;
+	margin: 0 auto;
+}
+
+.prefooter .sucursal{
+	
+	float: left;
+	margin: 15px 0;
+	border-left: 1px solid #676668;
+	height: 57px;
+	padding-left: 42px;
+}
+
+.prefooter .sucursal.sucursal1{
+	width: 303px;
+}
+
+.prefooter .sucursal.sucursal2{
+	width: 350px;
+}
+
+.prefooter .sucursal.sucursal3{
+	border-right: 1px solid #676668;
+	width: 342px;
+}
+
+.prefooter .sucursal .link-mapa{
+	width: 44px;
+	float: left;
+	height: 100%;
+
+
+}
+
+.prefooter .sucursal .info-sucursal{
+	float: left;
+	height: 100%;
+	margin-left: 14px;
+}
+
+.prefooter .sucursal1 .info-sucursal{
+	width: 200px;
+}
+
+.prefooter .sucursal2 .info-sucursal{
+	width: 245px;
+}
+
+.prefooter .sucursal3 .info-sucursal{
+	width: 240px;
+}
+
+.prefooter .sucursal .info-sucursal p{
+	margin: 0;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: #AFAFAF;
+}
+
+.prefooter .sucursal .info-sucursal p a{
+	margin: 0;
 }

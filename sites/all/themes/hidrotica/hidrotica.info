@@ -35,6 +35,7 @@ regions[sidebar_first]      = Sidebar First
 regions[sidebar_second]     = Sidebar Second
 regions[below_content]      = Below Content
 
+regions[prefooter]          = Pre Footer
 regions[footer]             = Footer
 regions[closure]            = Closure
 
