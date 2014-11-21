@@ -483,3 +483,12 @@ a:hover{
 }
 
 .field-name-field-banner-proyectos-servicios {float: left;}
+
+
+/*Quienes Somos*/
+
+.flexslider{
+	border-radius: 0 !important;
+	border: 0 !important;
+	background-color: transparent !important;
+}

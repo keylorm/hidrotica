@@ -43,6 +43,7 @@ regions[closure]            = Closure
 ; FOAD (F*** off and Die) technique - http://drupal.org/node/263967
 ; Install Magic Module and kill CSS
 
+stylesheets[all][] = css/flexslider.css
 stylesheets[all][] = css/base.css
 stylesheets[all][] = css/modules.css
 stylesheets[all][] = css/layout.css
@@ -53,8 +54,11 @@ stylesheets[all][] = css/movil-landscape.css
 stylesheets[all][] = css/tablet.css
 stylesheets[all][] = css/desktop.css
 
+
 ;-------------- JS -------------
+scripts[] = js/jquery.flexslider-min.js
 scripts[] = js/global.js
+
 
 
 ; Information added by drupal.org packaging script on 2013-10-01
