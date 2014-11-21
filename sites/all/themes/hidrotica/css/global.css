@@ -244,3 +244,8 @@ a:hover{
 #block-system-main-menu ul li.menu-595{
 	width: 70px;
 }
+
+.parrafo-izq, .parrafo-der {
+	float: left;
+	width: 49.5%;	
+}
