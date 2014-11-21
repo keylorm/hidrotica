@@ -124,7 +124,7 @@
 <?php endif; // end Below Content ?>
 
 <footer class="footer" role="contentinfo">
-  <div class="">
+  <div class="grid">
     <?php print render($page['footer']); ?>
   </div>
 </footer>

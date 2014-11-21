@@ -244,3 +244,10 @@ a:hover{
 #block-system-main-menu ul li.menu-595{
 	width: 70px;
 }
+
+.footer{
+	max-width: 100%;
+    width: 100%;
+	margin: 0;
+	background-color: #414042;
+}
