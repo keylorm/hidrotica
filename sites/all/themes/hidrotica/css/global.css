@@ -470,6 +470,7 @@ a:hover{
 }
 
 .prefooter .sucursal .info-sucursal p a{
+
 	transition: all 0.4s ease 0s;
 	color: #afafaf;
 }
@@ -478,3 +479,6 @@ a:hover{
 
 	color: #01a2d2;
 }
+
+.field-name-field-banner-proyectos-servicios {float: left;}
+
