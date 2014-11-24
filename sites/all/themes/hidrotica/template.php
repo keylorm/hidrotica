@@ -150,7 +150,7 @@ function hidrotica_form_alter(&$form, &$form_state, $form_id) {
 }
 
 function hidrotica_preprocess_field(&$vars) {
-  //dpm($vars);
+  dpm($vars);
 }
 
 
