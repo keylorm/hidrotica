@@ -492,3 +492,5 @@ a:hover{
 	border: 0 !important;
 	background-color: transparent !important;
 }
+
+.node-producto.node-teaser {width: 32.8%; float: left;}
