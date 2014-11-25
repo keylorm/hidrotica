@@ -164,4 +164,19 @@
     overflow: hidden;
 }
 
+
+.node-type-proyectos-y-servicios .field-name-field-image {
+    width: 10.5%;
+height: 85px;
+}
+
+.node-type-proyectos-y-servicios  .field-name-title{
+	width: 89.5%;
+	height: 85px;
+}
+
+.node-type-proyectos-y-servicios .field-name-enlace-contacto a{
+	float: right;
+}
+
 }

@@ -164,4 +164,20 @@
 	padding: 0 4%;
 }
 
+.node-type-proyectos-y-servicios .field-name-field-image {
+    width: 15%;
+    height: 85px;
+
+}
+
+.node-type-proyectos-y-servicios  .field-name-title{
+	width: 85%;
+	height: 85px;
+}
+
+.node-type-proyectos-y-servicios .field-name-enlace-contacto a{
+	float: left;
+}
+
+
 }
