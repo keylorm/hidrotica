@@ -150,7 +150,10 @@ function hidrotica_form_alter(&$form, &$form_state, $form_id) {
 }
 
 function hidrotica_preprocess_field(&$vars) {
- // dpm($vars);
+  dpm($vars);
+  if ($vars['element']['#field_name'] == 'comment_body') {
+    # code...
+  }
 }
 
 
@@ -161,4 +164,15 @@ function hidrotica_menu_link(array $variables) {
    $variables['element']['#localized_options']['attributes']['class'][] = 'menu-' . $variables['element']['#original_link']['mlid'];
 //dvm($variables['element']);
   return theme_menu_link($variables);
+}
+
+function hidrotica_form_comment_form_alter(&$form, &$form_state, &$form_id) {
+  dpm($form);
+  unset ($form['actions']['preview']);
+  $form['comment_body']['#after_build'][] = 'configure_comment_form';
+}
+
+function configure_comment_form(&$form) {
+  unset($form[LANGUAGE_NONE][0]['format']);
+  return $form;
 }
