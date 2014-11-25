@@ -151,9 +151,6 @@ function hidrotica_form_alter(&$form, &$form_state, $form_id) {
 
 function hidrotica_preprocess_field(&$vars) {
   dpm($vars);
-  if ($vars['element']['#field_name'] == 'comment_body') {
-    # code...
-  }
 }
 
 
@@ -168,7 +165,17 @@ function hidrotica_menu_link(array $variables) {
 
 function hidrotica_form_comment_form_alter(&$form, &$form_state, &$form_id) {
   dpm($form);
+
+  //agregar atributo placeholder al campo subject
+  if(isset($form['author']['name']['#value'])){
+    $name = $form['author']['name']['#value'];
+    $form['author']['name']['#attributes']['placeholder'] = t( $name );
+    $form['author']['mail']['#attributes']['placeholder'] = t( 'Email:' );
+    $form['comment_body'][LANGUAGE_NONE][0]['#attributes']['placeholder'] = t( 'Comment:' );
+  }
+
   unset ($form['actions']['preview']);
+  $form['actions']['submit']['#value'] = t('Send');
   $form['comment_body']['#after_build'][] = 'configure_comment_form';
 }
 
