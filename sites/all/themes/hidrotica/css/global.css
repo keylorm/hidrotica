@@ -797,3 +797,97 @@ h1#page-title{
     margin-bottom: 124px;
     width: 100%;
 }
+
+h2#title-proyectos-servicios{
+	color: #00b052;
+    font-family: "Roboto",sans-serif;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.node-type-proyectos-y-servicios .field-name-field-image {
+    float: left;
+    height: 85px;
+    width: 12%;
+    z-index: 1;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.node-type-proyectos-y-servicios  .field-name-title{
+	width: 88%;
+	z-index: -1;
+	float: left;
+
+    height: 85px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: right center;
+    background-image: url(../images/bg-h1-proyectos.png);
+    overflow: hidden;
+}
+
+.node-type-proyectos-y-servicios  .field-name-title h1{
+	background-color: #ffffff;
+    color: #01a2d2;
+    display: block;
+    float: left;
+    font-family: "Roboto",sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 78px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-right: 20px;
+}
+
+.node-type-proyectos-y-servicios .field-name-enlace-contacto{
+	width: 50%;
+	padding-left: 2.5%;
+	float: right;	
+}
+
+.node-type-proyectos-y-servicios .field-name-enlace-contacto p{
+	 color: #01A2D2;
+    display: block;
+    float: left;
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    width: 290px;
+    line-height: 18px;
+    margin: 0 0 20px 0;
+}
+
+.node-type-proyectos-y-servicios .field-name-enlace-contacto a{
+	width: 142px;
+	height: 32px;
+	display: block;
+	float: left;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 0 15px;
+	border-radius: 10px;
+	font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    background-color: #01A2D2;
+    line-height: 32px;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s; /* For Safari 3.1 to 6.0 */
+}
+
+.node-type-proyectos-y-servicios .field-name-enlace-contacto a:hover{
+	transform: translate(0px,-2px);
+	ms-transform: translate(0px, -2px); /* IE 9 */
+    -webkit-transform: translate(0px, -2px);
+}
+
+.node-type-proyectos-y-servicios .node-proyectos-y-servicios{
+	min-height: 845px;
+}
