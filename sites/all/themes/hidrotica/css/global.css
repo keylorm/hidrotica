@@ -473,6 +473,7 @@ a:hover{
 .prefooter .sucursal .info-sucursal p a{
 
 	transition: all 0.4s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
 	color: #afafaf;
 }
 
@@ -670,10 +671,13 @@ h1#page-title{
 	margin-bottom: 28px;
 	padding: 25px 30px;
 	transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
 }
 
 #block-views-banner-paginas-block-valores .item-list ul li:hover{
 	transform: translate(0px, -2px);
+	ms-transform: translate(0px, -2px); /* IE 9 */
+    -webkit-transform: translate(0px, -2px);
 	box-shadow: 0 4px 16px #666;
 }
 
@@ -731,11 +735,24 @@ h1#page-title{
 	z-index: 1;
 }
 
+.page-proyectos-y-servicios .view-id-proyectos_y_servicios .views-row .views-field-field-image a{
+	display: block;
+	transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s; /* For Safari 3.1 to 6.0 */
+}
+.page-proyectos-y-servicios .view-id-proyectos_y_servicios .views-row .views-field-field-image a:hover{
+
+	transform: translate(0px,-2px);
+	ms-transform: translate(0px, -2px); /* IE 9 */
+    -webkit-transform: translate(0px, -2px);
+
+}
+
 .page-proyectos-y-servicios .view-id-proyectos_y_servicios .views-row .views-field-nothing{
 	background-color: #EDEEEE;
 	height: 284px;
 	width: 100%;
-	padding: 78px 30px 0;
+	padding: 70px 30px 0;
 	z-index: -1;
 	margin-top: -70px;
 }
@@ -748,6 +765,7 @@ h1#page-title{
 .page-proyectos-y-servicios .view-id-proyectos_y_servicios .views-row .views-field-nothing .cuerpo-proyecto-servicio h2{
 	margin-top: 0;
 	line-height: 20px;
+	margin-bottom: 22px;
 }
 .page-proyectos-y-servicios .view-id-proyectos_y_servicios .views-row .views-field-nothing .cuerpo-proyecto-servicio h2 a{
 	margin-top: 0;
@@ -771,4 +789,11 @@ h1#page-title{
     font-size: 14px;
     font-weight: 400;
     line-height: 19px;
+}
+
+.page-proyectos-y-servicios .view-id-proyectos_y_servicios{
+    display: block;
+    float: left;
+    margin-bottom: 124px;
+    width: 100%;
 }
