@@ -493,6 +493,7 @@ a:hover{
 	border-radius: 0 !important;
 	border: 0 !important;
 	background-color: transparent !important;
+	box-shadow: none;
 }
 
 .node-producto.node-teaser {width: 32.8%; float: left;
@@ -829,6 +830,7 @@ h2#title-proyectos-servicios{
     background-position: right center;
     background-image: url(../images/bg-h1-proyectos.png);
     overflow: hidden;
+    margin-bottom: 24px;
 }
 
 .node-type-proyectos-y-servicios  .field-name-title h1{
@@ -889,5 +891,43 @@ h2#title-proyectos-servicios{
 }
 
 .node-type-proyectos-y-servicios .node-proyectos-y-servicios{
-	min-height: 845px;
+	min-height: 1190px;
+}
+
+.node-type-proyectos-y-servicios .field-name-body{
+	clear: both;
+	padding-top: 0;
+}
+
+.node-type-proyectos-y-servicios .field-name-body h3,
+.node-type-proyectos-y-servicios .marcas h3{
+	color: #01A2D2;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.node-type-proyectos-y-servicios .listado-marcas {
+    padding-left: 0;
+}
+
+.node-type-proyectos-y-servicios .listado-marcas li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 10px;
+}
+
+.node-type-proyectos-y-servicios .listado-marcas li.logo-marca-first {
+	margin-left: 0;
+}
+
+.node-type-proyectos-y-servicios .listado-marcas li.logo-marca-last {
+	margin-right: 0;
+}
+
+
+.node-type-proyectos-y-servicios .marcas{
+	margin-bottom: 50px;
+	clear: both;
 }
