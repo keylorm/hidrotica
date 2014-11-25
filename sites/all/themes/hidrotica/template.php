@@ -150,7 +150,7 @@ function hidrotica_form_alter(&$form, &$form_state, $form_id) {
 }
 
 function hidrotica_preprocess_field(&$vars) {
-  dpm($vars);
+  //dpm($vars);
 }
 
 
@@ -164,7 +164,6 @@ function hidrotica_menu_link(array $variables) {
 }
 
 function hidrotica_form_comment_form_alter(&$form, &$form_state, &$form_id) {
-  dpm($form);
 
   //agregar atributo placeholder al campo subject
   if(isset($form['author']['name']['#value'])){

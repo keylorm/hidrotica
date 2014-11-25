@@ -85,6 +85,8 @@
     <div class="main" role="main">
       <?php if (isset($node) && $node->type == "proyectos_y_servicios"):?>
            <h2 id="title-proyectos-servicios"><?php print "PROYECTOS Y SERVICIOS"; ?></h2>
+      <?php elseif (isset($node) && $node->type == "blog"): ?>
+           <h1 id="title-noticias-promociones"><?php print "Noticias y Promociones"; ?></h1>
       <?php endif; ?>
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
