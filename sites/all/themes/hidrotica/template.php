@@ -191,12 +191,12 @@ function hidrotica_breadcrumb(&$variables){
      $a=1;
      foreach($variables['breadcrumb'] as $value) {
          if ($a!=$lastitem){
-          $crumbs .= '<span class="breadcrumb breadcrumb-'.$a.'">'. $value . ' ' . '</span>';
-          $crumbs .= '<span class="breadcrumb crumbs-separator"> '.$variables['crumbs_separator'].' </span>';
+          $crumbs .= '<div class="breadcrumb breadcrumb-'.$a.'">'. $value . ' ' . '</div>';
+          $crumbs .= '<div class="breadcrumb crumbs-separator"> '.$variables['crumbs_separator'].' </div>';
           $a++;
          }
          else {
-             $crumbs .= '<span class="breadcrumb breadcrumb-last">'.$value.'</span>';
+             $crumbs .= '<div class="breadcrumb breadcrumb-last">'.$value.'</div>';
          }
      }
      $crumbs .= '</div>';
