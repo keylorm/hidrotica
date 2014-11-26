@@ -16,7 +16,8 @@ body {
 .header .grid,
 .main-content,
 .footer,
-.below-content .grid{
+.below-content .grid,
+.fila.grid{
   max-width: 62.5em;
   margin: 0 auto;
   overflow: hidden;

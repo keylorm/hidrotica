@@ -931,3 +931,25 @@ h2#title-proyectos-servicios{
 	margin-bottom: 50px;
 	clear: both;
 }
+
+/* Juan */
+.node-banner.node-teaser .links {
+	display: none;
+}
+
+/* Eliminamos el grid del home page debido a que se establece por medio de paneles */
+.front .main-content {
+	max-width: 100%;
+}
+
+.panels-flexible-region {
+	float: none;
+}
+
+/* estilo básico jcarousel */
+.jcarousel-skin-default .jcarousel-container-horizontal,
+.jcarousel-skin-default .jcarousel-clip-horizontal{
+	width: 100% !important;
+	height: 500px !important;
+	padding: 0 !important;
+}

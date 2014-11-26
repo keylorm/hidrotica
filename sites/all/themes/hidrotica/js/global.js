@@ -4,6 +4,13 @@ jQuery(window).load(function() {
     directionNav: false,
   });
 
+  //flexslider banner principal
+  jQuery('#banner-principal').flexslider({
+        animation: 'slide',
+        slideshowSpeed: 3000,
+        controlsContainer: ".flex-container",
+    });
+
 /*var jQuery(".mensaje-mas-autor .parrafo")
 var removedSpanString = removeElements(jQuery(".mensaje-mas-autor .parrafo"), "p");*/
 
