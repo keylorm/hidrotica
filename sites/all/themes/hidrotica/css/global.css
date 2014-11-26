@@ -1032,3 +1032,27 @@ h2#title-proyectos-servicios{
 	height: 500px !important;
 	padding: 0 !important;
 }
+
+.breadcrumbs span.breadcrumb{
+	height: 20px;
+	line-height: 20px;
+	color: #9D9D9D;
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.breadcrumbs span.breadcrumb a{
+	color: #9D9D9D;
+    font-family: "Roboto",sans-serif;
+    text-decoration: none;
+}
+
+.breadcrumbs span.breadcrumb {
+	width: 25px;
+	height: 25px;
+	background-image: url(../images/breadcrumb-inicio.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-color: transparent;
+}
