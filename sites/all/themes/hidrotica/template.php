@@ -182,3 +182,27 @@ function configure_comment_form(&$form) {
   unset($form[LANGUAGE_NONE][0]['format']);
   return $form;
 }
+
+function hidrotica_breadcrumb(&$variables){
+  dpm($variables);
+  if (count($variables['breadcrumb']) > 0) {
+     $lastitem = sizeof($variables['breadcrumb']);
+     $crumbs = '<div class="breadcrumbs">';
+     $a=1;
+     foreach($variables['breadcrumb'] as $value) {
+         if ($a!=$lastitem){
+          $crumbs .= '<span class="breadcrumb-'.$a.'">'. $value . ' ' . '</span>';
+          $crumbs .= '<span class="crumbs-separator"> '.$variables['crumbs_separator'].' </span>';
+          $a++;
+         }
+         else {
+             $crumbs .= '<span class="breadcrumb-last">'.$value.'</span>';
+         }
+     }
+     $crumbs .= '</div>';
+   return $crumbs;
+   }
+   else {
+     return t("Home");
+   }
+}
