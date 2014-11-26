@@ -1077,3 +1077,9 @@ h2#title-proyectos-servicios{
 .breadcrumbs {
     margin-top: 35px;
 }
+
+.taxonomy-term.vocabulary-categoria-productos .field-name-title h2{
+	color: #01A2D2;
+    font-family: "Roboto",sans-serif;
+	font-weight: 700;
+}
