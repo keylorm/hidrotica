@@ -950,6 +950,11 @@ h2#title-proyectos-servicios{
 .jcarousel-skin-default .jcarousel-container-horizontal,
 .jcarousel-skin-default .jcarousel-clip-horizontal{
 	width: 100% !important;
-	height: 500px !important;
+	height: 460px !important;
 	padding: 0 !important;
+}
+
+.jcarousel-skin-default .jcarousel-item-horizontal {
+	height: 460px !important;
+	border: none;
 }

@@ -1,5 +1,4 @@
 <?php
-	dpm($items);
 	$imagen =""; 
 	$url = "";
 	$caption = "";
