@@ -903,7 +903,8 @@ h2#title-proyectos-servicios,
 }
 
 .node-type-proyectos-y-servicios .field-name-body h3,
-.node-type-proyectos-y-servicios .marcas h3{
+.node-type-proyectos-y-servicios .marcas h3,
+.page-taxonomy-term .marcas h3{
 	color: #01A2D2;
     font-family: "Open Sans",sans-serif;
     font-size: 16px;
@@ -972,7 +973,8 @@ h2#title-proyectos-servicios,
 
 .view-id-catetorias_producto .views-row .views-field-description-1 p,
 .pane-catetorias-producto .jcarousel-item .views-field-description p,
-.pane-blog .jcarousel-item .views-field-body p {
+.pane-blog .jcarousel-item .views-field-body p,
+.vocabulary-categoria-productos .taxonomy-term-description p {
 	margin-top: 0;
 	color: #58595B;
     font-family: "Roboto",sans-serif;
@@ -1455,4 +1457,17 @@ margin-bottom: 75px;
 
 .panels-flexible-row.panels-flexible-row-home_page-2.clearfix.gu.bloque-nuestros-servicios {
 	padding-bottom: 47px;
+}
+
+
+/* Nivel 2 - Productos */
+
+#block-block-6 h1 {
+	margin: 0;
+}
+
+.vocabulary-categoria-productos h2 {
+	font-size: 27px;
+	text-transform: uppercase;
+	margin: 0 0 20px 0;
 }
