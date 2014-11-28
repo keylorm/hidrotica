@@ -497,8 +497,13 @@ a:hover{
 	box-shadow: none;
 }
 
-.node-producto.node-teaser {width: 32.8%; float: left;
-	margin: 0 0 0px;
+.node-producto.node-teaser {
+     float: left;
+    height: 654px;
+    margin: 0 2.66% 30px;
+    width: 28%;
+    position: relative;
+
 }
 
 .flex-control-paging li a{
@@ -851,13 +856,17 @@ h2#title-proyectos-servicios,
     padding-right: 20px;
 }
 
-.node-type-proyectos-y-servicios .field-name-enlace-contacto{
+.node-type-proyectos-y-servicios .field-name-enlace-contacto,
+.node-type-producto .field-name-enlace-contacto,
+.page-taxonomy-term .field-name-enlace-contacto{
 	width: 50%;
 	padding-left: 2.5%;
 	float: right;	
 }
 
-.node-type-proyectos-y-servicios .field-name-enlace-contacto p{
+.node-type-proyectos-y-servicios .field-name-enlace-contacto p,
+.node-type-producto .field-name-enlace-contacto p,
+.page-taxonomy-term .field-name-enlace-contacto p{
 	 color: #01A2D2;
     display: block;
     float: left;
@@ -870,7 +879,9 @@ h2#title-proyectos-servicios,
     margin: 0 0 20px 0;
 }
 
-.node-type-proyectos-y-servicios .field-name-enlace-contacto a{
+.node-type-proyectos-y-servicios .field-name-enlace-contacto a,
+.node-type-producto .field-name-enlace-contacto a,
+.page-taxonomy-term .field-name-enlace-contacto a{
 	width: 142px;
 	height: 32px;
 	display: block;
@@ -887,7 +898,9 @@ h2#title-proyectos-servicios,
     -webkit-transition: all 0.3s ease 0s; /* For Safari 3.1 to 6.0 */
 }
 
-.node-type-proyectos-y-servicios .field-name-enlace-contacto a:hover{
+.node-type-proyectos-y-servicios .field-name-enlace-contacto a:hover,
+.node-type-producto .field-name-enlace-contacto a:hover,
+.page-taxonomy-term .field-name-enlace-contacto a:hover{
 	transform: translate(0px,-2px);
 	ms-transform: translate(0px, -2px); /* IE 9 */
     -webkit-transform: translate(0px, -2px);
@@ -902,26 +915,6 @@ h2#title-proyectos-servicios,
 	padding-top: 0;
 }
 
-.node-type-proyectos-y-servicios .field-name-body h3,
-.node-type-proyectos-y-servicios .marcas h3,
-.page-taxonomy-term .marcas h3{
-	color: #01A2D2;
-    font-family: "Open Sans",sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    margin-top: 0;
-}
-
-.node-type-proyectos-y-servicios .listado-marcas {
-    padding-left: 0;
-}
-
-.node-type-proyectos-y-servicios .listado-marcas li {
-    display: inline-block;
-    list-style-type: none;
-    margin: 0 10px;
-}
-
 .node-type-proyectos-y-servicios .listado-marcas li.logo-marca-first {
 	margin-left: 0;
 }
@@ -930,10 +923,38 @@ h2#title-proyectos-servicios,
 	margin-right: 0;
 }
 
+.node-type-proyectos-y-servicios .field-name-body h3,
+.node-type-proyectos-y-servicios .marcas h3,
+.page-taxonomy-term .marcas h3,
+.page-taxonomy-term .vocabulary-categoria-productos .marcas h3{
+	color: #01A2D2;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0;
+}
 
-.node-type-proyectos-y-servicios .marcas{
+
+
+
+
+
+.node-type-proyectos-y-servicios .marcas,
+.page-taxonomy-term .vocabulary-categoria-productos  .marcas{
 	margin-bottom: 50px;
 	clear: both;
+}
+
+.node-type-proyectos-y-servicios .listado-marcas,
+.page-taxonomy-term .vocabulary-categoria-productos .listado-marcas {
+    padding-left: 0;
+}
+
+.node-type-proyectos-y-servicios .listado-marcas li,
+.page-taxonomy-term .vocabulary-categoria-productos .listado-marcas li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 10px;
 }
 
 .view-id-catetorias_producto .views-row{
@@ -974,7 +995,8 @@ h2#title-proyectos-servicios,
 .view-id-catetorias_producto .views-row .views-field-description-1 p,
 .pane-catetorias-producto .jcarousel-item .views-field-description p,
 .pane-blog .jcarousel-item .views-field-body p,
-.vocabulary-categoria-productos .taxonomy-term-description p {
+.vocabulary-categoria-productos .taxonomy-term-description p,
+.node-type-producto .views-field-description p {
 	margin-top: 0;
 	color: #58595B;
     font-family: "Roboto",sans-serif;
@@ -1153,10 +1175,102 @@ h2#title-proyectos-servicios,
 	margin: 0.8em 0;
 	padding: 0.6em 0.5em 1.2em 0.5em;
 }
-.taxonomy-term.vocabulary-categoria-productos .field-name-title h2{
+
+.taxonomy-term.vocabulary-categoria-productos .field-name-title h2,
+.node-type-producto .views-field-field-categoria h2{
 	color: #01A2D2;
     font-family: "Roboto",sans-serif;
 	font-weight: 700;
+
+	text-transform: uppercase;
+	margin: 0;
+
+}
+
+.taxonomy-term.vocabulary-categoria-productos .taxonomy-term-description p{
+	color: #58595B;
+    font-family: "Roboto",sans-serif;
+	font-weight: 300;
+	margin: 0;
+	
+}
+
+.taxonomy-term.vocabulary-categoria-productos .group-right .field-name-enlace-contacto{
+	display: none;
+}
+
+.taxonomy-term.vocabulary-categoria-productos .group-right .field-name-field-detalle-producto-categoria+div.field-name-enlace-contacto{
+	display: block;
+}
+
+.node-producto.node-teaser .field-name-title h3{
+	  color: #1c75b8;
+    font-family: "Roboto",sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    height: 42px;
+    line-height: 20px;
+    margin: 26px 0 0;
+    text-transform: uppercase;
+}
+
+.node-producto.node-teaser .field-name-title h3 a{
+	color: #1C75B8;
+    font-family: "Roboto",sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.node-producto.node-teaser .field-name-body {
+	padding-top: 16px;
+	height: 315px;
+}
+
+.node-producto.node-teaser .field-name-body p {
+	color: #58595b;
+    font-family: "Roboto",sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 21px;
+    margin-top: 0;
+}
+
+.node-producto.node-teaser .field-name-node-link{
+	/*bottom: 0;
+    left: 0;
+    position: absolute;*/
+}
+
+
+.node-producto.node-teaser .field-name-node-link a {
+    background-color: #01a2d2;
+    border-radius: 8px;
+    color: #ffffff;
+    display: block;
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    width: 96px;
+}
+
+.node-producto.node-teaser .field-name-node-link a:hover {
+    transform: translate(0px,-2px);
+}
+
+.node-producto.node-teaser .field-name-field-image img{
+	border: 1px solid #C8C8C8;
+}
+
+.page-taxonomy-term-2 .term-listing-heading+p,
+.page-taxonomy-term-1 .term-listing-heading+p{
+	display: none;
+
 }
 
 /* estilo carousel nuestros proyectos y servicios */
@@ -1462,12 +1576,105 @@ margin-bottom: 75px;
 
 /* Nivel 2 - Productos */
 
-#block-block-6 h1 {
-	margin: 0;
+#block-block-6 h1,
+.bloque-encabezado-producto h1 {
+	margin-bottom: 0px !important;
+	margin-top: 0px;
 }
 
-.vocabulary-categoria-productos h2 {
+.vocabulary-categoria-productos h2 ,
+.node-type-producto .views-field-field-categoria h2{
 	font-size: 27px;
 	text-transform: uppercase;
 	margin: 0 0 20px 0;
+}
+
+/* flexslider - imagenes */
+.node-type-producto .flexslider img{
+	border: 1px solid #ddd;
+}
+
+.node-type-producto .views-field-description p {
+	margin-bottom: 30px;
+}
+
+.node-type-producto .field-name-title h3,
+.field-name-field-detalle-producto-categoria h3,
+.field-name-field-detalle-producto-categoria h3 b,
+.field-name-field-detalle-producto-categoria h3 b span {
+	margin: 0;
+	font-family: 'Roboto', serif !important;
+	font-weight: 700;
+	color: #58595B;
+	text-transform: uppercase;
+	font-size: 27px !important;
+	line-height: 25px;
+	margin-top: -4px;
+}
+
+.node-type-producto .field-name-body,
+.field-name-field-detalle-producto-categoria {
+	padding-top: 5px;
+	min-height: 250px;
+	
+}
+
+.page-taxonomy-term .ds-2col-stacked > .group-left,
+.page-taxonomy-term .ds-2col-stacked > .group-right {
+	width: 49%;
+}
+
+.page-taxonomy-term .ds-2col-stacked > .group-left {
+	margin-right: 10px;
+	margin-top: 12px;
+}
+
+.node-type-producto .field-name-body p,
+.node-type-producto .field-name-body p span,
+.node-type-producto .field-name-body li,
+.node-type-producto .field-name-body li span,
+.field-name-field-detalle-producto-categoria p,
+.field-name-field-detalle-producto-categoria p span,
+.field-name-field-detalle-producto-categoria li,
+.field-name-field-detalle-producto-categoria li span {
+	font-family: 'Roboto', serif !important;
+	font-weight: 300;
+	color: #58595B;
+	font-size: 15px !important;
+}
+
+.node-type-producto .field-name-body li {
+	margin-bottom: 10px;
+}
+
+.node-type-producto .field-name-body p b,
+.node-type-producto .field-name-body p b span {
+	color: #000;
+	font-weight: 600;
+}
+
+/* Ajustar el margen del bloque izq del layout */
+.node-type-producto .panel-col-first .inside {
+	margin: 0 1em .5em 0;
+}
+
+/* */
+
+.node-type-producto .field-name-enlace-contacto,
+.page-taxonomy-term .field-name-enlace-contacto {
+	width: 100%;
+	padding-left: 0;
+	margin-top: 100px;
+}
+
+.node-type-producto .field-name-enlace-contacto p,
+.page-taxonomy-term .field-name-enlace-contacto p {
+	padding: 0;
+	color: #00B052;
+}
+
+.node-type-producto .field-name-enlace-contacto a,
+.page-taxonomy-term .field-name-enlace-contacto a {
+	float: right;
+	background-color: #00B052;
 }

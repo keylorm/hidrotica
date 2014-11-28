@@ -184,6 +184,7 @@ function configure_comment_form(&$form) {
 }
 
 function hidrotica_breadcrumb(&$variables){
+
   if (count($variables['breadcrumb']) > 0) {
      $lastitem = sizeof($variables['breadcrumb']);
      $crumbs = '<div class="breadcrumbs">';
