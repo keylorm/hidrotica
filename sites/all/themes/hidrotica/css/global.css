@@ -496,8 +496,13 @@ a:hover{
 	box-shadow: none;
 }
 
-.node-producto.node-teaser {width: 32.8%; float: left;
-	margin: 0 0 0px;
+.node-producto.node-teaser {
+     float: left;
+    height: 654px;
+    margin: 0 2.66% 30px;
+    width: 28%;
+    position: relative;
+
 }
 
 .flex-control-paging li a{
@@ -899,25 +904,6 @@ h2#title-proyectos-servicios{
 	padding-top: 0;
 }
 
-.node-type-proyectos-y-servicios .field-name-body h3,
-.node-type-proyectos-y-servicios .marcas h3{
-	color: #01A2D2;
-    font-family: "Open Sans",sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    margin-top: 0;
-}
-
-.node-type-proyectos-y-servicios .listado-marcas {
-    padding-left: 0;
-}
-
-.node-type-proyectos-y-servicios .listado-marcas li {
-    display: inline-block;
-    list-style-type: none;
-    margin: 0 10px;
-}
-
 .node-type-proyectos-y-servicios .listado-marcas li.logo-marca-first {
 	margin-left: 0;
 }
@@ -926,10 +912,37 @@ h2#title-proyectos-servicios{
 	margin-right: 0;
 }
 
+.node-type-proyectos-y-servicios .field-name-body h3,
+.node-type-proyectos-y-servicios .marcas h3,
+.page-taxonomy-term .vocabulary-categoria-productos .marcas h3{
+	color: #01A2D2;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0;
+}
 
-.node-type-proyectos-y-servicios .marcas{
+
+
+
+
+
+.node-type-proyectos-y-servicios .marcas,
+.page-taxonomy-term .vocabulary-categoria-productos  .marcas{
 	margin-bottom: 50px;
 	clear: both;
+}
+
+.node-type-proyectos-y-servicios .listado-marcas,
+.page-taxonomy-term .vocabulary-categoria-productos .listado-marcas {
+    padding-left: 0;
+}
+
+.node-type-proyectos-y-servicios .listado-marcas li,
+.page-taxonomy-term .vocabulary-categoria-productos .listado-marcas li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 10px;
 }
 
 .view-id-catetorias_producto .views-row{
@@ -1082,4 +1095,92 @@ h2#title-proyectos-servicios{
 	color: #01A2D2;
     font-family: "Roboto",sans-serif;
 	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0;
+
+}
+
+.taxonomy-term.vocabulary-categoria-productos .taxonomy-term-description p{
+	color: #58595B;
+    font-family: "Roboto",sans-serif;
+	font-weight: 300;
+	margin: 0;
+	
+}
+
+.taxonomy-term.vocabulary-categoria-productos .group-right .field-name-enlace-contacto{
+	display: none;
+}
+
+.taxonomy-term.vocabulary-categoria-productos .group-right .field-name-field-detalle-producto-categoria+div.field-name-enlace-contacto{
+	display: block;
+}
+
+.node-producto.node-teaser .field-name-title h3{
+	  color: #1c75b8;
+    font-family: "Roboto",sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    height: 42px;
+    line-height: 20px;
+    margin: 26px 0 0;
+    text-transform: uppercase;
+}
+
+.node-producto.node-teaser .field-name-title h3 a{
+	color: #1C75B8;
+    font-family: "Roboto",sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.node-producto.node-teaser .field-name-body {
+	padding-top: 16px;
+	height: 315px;
+}
+
+.node-producto.node-teaser .field-name-body p {
+	color: #58595b;
+    font-family: "Roboto",sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 21px;
+    margin-top: 0;
+}
+
+.node-producto.node-teaser .field-name-node-link{
+	/*bottom: 0;
+    left: 0;
+    position: absolute;*/
+}
+
+
+.node-producto.node-teaser .field-name-node-link a {
+    background-color: #01a2d2;
+    border-radius: 8px;
+    color: #ffffff;
+    display: block;
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    width: 96px;
+}
+
+.node-producto.node-teaser .field-name-node-link a:hover {
+    transform: translate(0px,-2px);
+}
+
+.node-producto.node-teaser .field-name-field-image img{
+	border: 1px solid #C8C8C8;
+}
+
+.page-taxonomy-term-2 .term-listing-heading+p,
+.page-taxonomy-term-1 .term-listing-heading+p{
+	display: none;
 }
