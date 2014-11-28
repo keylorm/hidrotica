@@ -1,5 +1,6 @@
 /* CSS Global para todo el sitio */
 @import url(http://fonts.googleapis.com/css?family=Exo+2:400,300,600,700|Roboto:400,300,700|Open+Sans:400,300,600,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100);
 
 
 html {
@@ -789,7 +790,8 @@ h1#page-title{
     line-height: 20px;
 }
 
-.page-proyectos-y-servicios .view-id-proyectos_y_servicios .views-row .views-field-nothing .cuerpo-proyecto-servicio p{
+.page-proyectos-y-servicios .view-id-proyectos_y_servicios .views-row .views-field-nothing .cuerpo-proyecto-servicio p,
+.jcarousel-view--proyectos-y-servicios--block-1 .views-field-body p{
 	color: #58595B;
 	font-family: "Open Sans",sans-serif;
     font-size: 14px;
@@ -804,7 +806,8 @@ h1#page-title{
     width: 100%;
 }
 
-h2#title-proyectos-servicios{
+h2#title-proyectos-servicios,
+.pane-proyectos-y-servicios h2.pane-title{
 	color: #00b052;
     font-family: "Roboto",sans-serif;
     font-size: 33px;
@@ -980,7 +983,9 @@ h2#title-proyectos-servicios{
 
 }
 
-.view-id-catetorias_producto .views-row .views-field-description-1 p{
+.view-id-catetorias_producto .views-row .views-field-description-1 p,
+.pane-catetorias-producto .jcarousel-item .views-field-description p,
+.pane-blog .jcarousel-item .views-field-body p {
 	margin-top: 0;
 	color: #58595B;
     font-family: "Roboto",sans-serif;
@@ -1042,14 +1047,37 @@ h2#title-proyectos-servicios{
 .jcarousel-skin-default .jcarousel-container-horizontal,
 .jcarousel-skin-default .jcarousel-clip-horizontal{
 	width: 100% !important;
-	height: 460px !important;
+	height: 470px !important;
 	padding: 0 !important;
 }
 
 .jcarousel-skin-default .jcarousel-item-horizontal {
-	height: 460px !important;
+	height: 470px !important;
 	border: none;
 }
+
+.jcarousel-view--blog--bloque-noticias-promociones-home-page .jcarousel-item-horizontal,
+.jcarousel-view--certificados--bloque-certificaciones-home-page .jcarousel-item-horizontal { 
+	height: 250px !important;
+}
+
+.jcarousel-view--certificados--bloque-certificaciones-home-page .jcarousel-item-horizontal { 
+	margin: 0;
+}
+
+.view-display-id-bloque_noticias_promociones_home_page .jcarousel-skin-default .jcarousel-container-horizontal, .view-display-id-bloque_noticias_promociones_home_page .jcarousel-skin-default .jcarousel-clip-horizontal,
+.view-id-certificados .jcarousel-skin-default .jcarousel-container-horizontal, .view-id-certificados .jcarousel-skin-default .jcarousel-clip-horizontal {
+	height: 250px !important;
+}
+
+.view-id-certificados .jcarousel-skin-default .jcarousel-container-horizontal, .view-id-certificados .jcarousel-skin-default .jcarousel-clip-horizontal {
+	height: 160px !important;
+}
+
+.jcarousel-view--certificados--bloque-certificaciones-home-page .jcarousel-item-horizontal { 
+	height: 160px !important;
+}
+
 .breadcrumbs div.breadcrumb{
 	color: #9d9d9d;
     display: inline-block;
@@ -1091,10 +1119,56 @@ h2#title-proyectos-servicios{
     margin-top: 35px;
 }
 
+/* Juan: style homepage flexslider */
+.flexslider-homepage .slides {
+	max-height: 486px;
+	overflow: hidden;
+}
+
+.flexslider-homepage img {
+	width: 100%;
+}
+
+.flex-caption {
+	position: relative;
+	top: -292px;
+	width: 998px;
+	margin: 0 auto;
+	background-repeat: repeat-x;
+	background-image: url("../images/fondo-caption-banner.png");
+}
+
+.flex-caption p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 27px;
+	line-height: 40px;
+	text-transform: uppercase;
+	padding: 16px 296px 16px 28px;
+	color: #01A2D2;
+	margin: 0;
+	background-image: url("../images/flecha-caption-banner.png");
+	background-position: top right;
+	background-repeat: no-repeat;
+	letter-spacing: -0.5px;
+}
+
+.panels-flexible-region.encabezado .pane-content p{
+	font-family: 'Roboto Slab', serif;
+	font-size: 32px;
+	font-weight: 500;
+	text-align: center;
+	color: #959595;
+	line-height: 40px;
+	border-bottom: 1px solid #ddd;
+	margin: 0.8em 0;
+	padding: 0.6em 0.5em 1.2em 0.5em;
+}
 .taxonomy-term.vocabulary-categoria-productos .field-name-title h2{
 	color: #01A2D2;
     font-family: "Roboto",sans-serif;
 	font-weight: 700;
+
 	text-transform: uppercase;
 	margin: 0;
 
@@ -1183,4 +1257,306 @@ h2#title-proyectos-servicios{
 .page-taxonomy-term-2 .term-listing-heading+p,
 .page-taxonomy-term-1 .term-listing-heading+p{
 	display: none;
+
+}
+
+/* estilo carousel nuestros proyectos y servicios */
+.jcarousel-view--proyectos-y-servicios--block-1 .views-field-title h3{
+	font-family: 'Roboto', serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 0 10px 27px 10px;
+	letter-spacing: -0.8px;
+	line-height: 20px;
+	margin-top: 13px;
+	margin-bottom: 15px;
+	background-image: url("../images/borde-inferior-titulo-proyectos-home.png");
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	min-height: 67px;
+}
+
+.jcarousel-view--proyectos-y-servicios--block-1 .views-field-title a{
+	color: #4D4D4D;	
+}
+
+.jcarousel-view--proyectos-y-servicios--block-1 .views-field-title a:hover {
+	color: #000;
+}
+
+.jcarousel-view--proyectos-y-servicios--block-1 .views-field.views-field-path {
+	position: absolute;
+	bottom: 14px;
+	width: 196px;
+}
+
+.jcarousel-view--catetorias-producto--bloque-nuestros-productos .views-field.views-field-path,
+.jcarousel-view--blog--bloque-noticias-promociones-home-page .views-field.views-field-path {
+	position: absolute;
+	bottom: 2px;
+	width: 196px;
+}
+
+.jcarousel-view--certificados--bloque-certificaciones-home-page .node-certificaciones .certificaciones .listado{
+	list-style: none;
+	padding: 0;
+}
+
+.jcarousel-view--proyectos-y-servicios--block-1 .views-field-path span.field-content {
+	padding: 8px;
+	background-color: #00B052;
+	border-radius: 5px;
+}
+
+.jcarousel-view--catetorias-producto--bloque-nuestros-productos span.field-content,
+.jcarousel-view--blog--bloque-noticias-promociones-home-page span.field-content{
+	padding: 8px;
+	background-color: #01A2D2;
+	border-radius: 5px;
+}
+
+.jcarousel-view--proyectos-y-servicios--block-1 .views-field-path span.field-content a,
+.jcarousel-view--catetorias-producto--bloque-nuestros-productos .views-field-path span.field-content a,
+.jcarousel-view--blog--bloque-noticias-promociones-home-page span.field-content a{
+	color: #fff;
+	font-family: 'Roboto', serif;
+	font-weight: 700;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+/* sobreescribir el estilo de la navegacion de jcarousel */
+.jcarousel-skin-default .jcarousel-next, .jcarousel-skin-default .jcarousel-prev {
+	height: 36px;
+	background-repeat: no-repeat;
+	background-color: #fff;
+}
+
+.jcarousel-skin-default .jcarousel-prev-horizontal {
+	top: -78px;
+	left: 905px;
+	width: 53px;
+	background-position: 16px -1px;
+	background-image: url('../images/jcarousel-prev.jpg');
+}
+
+.jcarousel-skin-default .jcarousel-prev-horizontal:hover,
+.jcarousel-skin-default .jcarousel-next-horizontal:hover{
+	/*opacity: 0.8;*/
+}
+
+.jcarousel-skin-default .jcarousel-prev-horizontal:hover{
+	background-position: 16px -1px;
+}
+.jcarousel-skin-default .jcarousel-next-horizontal:hover{
+	background-position: 7px -1px;
+}
+
+.jcarousel-skin-default .jcarousel-next-horizontal {
+	top: -78px;
+width: 43px;
+right: 0px;
+background-position: 7px -1px;
+background-image: url('../images/jcarousel-next.jpg');
+}
+
+.panel-pane.pane-views.pane-proyectos-y-servicios { 
+	border-top: 1px solid #00B052;
+}
+
+.panel-pane.pane-views.pane-catetorias-producto { 
+	border-top: 1px solid #01A2D2;
+	margin-top: 63px;
+	padding-top: 60px;
+	position: relative;
+}
+
+.panel-pane.pane-views.pane-blog,
+.panel-pane.pane-views.pane-certificados{ 
+	border-top: 1px solid #606060;
+	margin-top: 63px;
+	padding-top: 60px;
+	position: relative;
+}
+
+.panel-pane.pane-views.pane-proyectos-y-servicios{
+	margin-top: 40px;
+	padding-top: 60px;
+	position: relative;
+}
+
+.pane-proyectos-y-servicios h2.pane-title,
+.pane-catetorias-producto h2.pane-title,
+.pane-blog h2.pane-title,
+.pane-certificados h2.pane-title
+{
+	position: absolute;
+	top: -45px;
+	background-color: #fff;
+	padding-right: 85px;
+}
+
+.pane-catetorias-producto h2.pane-title,
+.pane-blog h2.pane-title {
+    font-family: "Roboto",sans-serif;
+	font-weight: 700;
+	font-size: 33px;
+	font-style: normal;
+	line-height: 35px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+.pane-certificados h2.pane-title {
+    font-family: "Roboto",sans-serif;
+	font-weight: 700;
+	font-size: 28px;
+	font-style: normal;
+	line-height: 35px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	color: #606060;
+}
+
+.pane-blog h2.pane-title {
+	color: #606060;
+}
+
+.pane-catetorias-producto h2.pane-title {
+	color: #01A2D2;
+}
+
+.bloque-nuestros-servicios,
+.pane-catetorias-producto h2.pane-title,
+.pane-certificados h2.pane-title,
+.pane-catetorias-producto .jcarousel-skin-default .jcarousel-next, .pane-catetorias-producto .jcarousel-skin-default .jcarousel-prev,
+.pane-catetorias-producto .jcarousel-item-horizontal,
+.pane-certificados .jcarousel-item-horizontal,
+.certificaciones {
+	background-color: #F2F2F2;
+}
+
+.panels-flexible-row.panels-flexible-row-home_page-3.clearfix.gu.noticias-promociones {
+margin-bottom: 93px;
+}
+
+.pane-catetorias-producto .jcarousel-skin-default .jcarousel-next{
+ background-image: url('../images/jcarousel-productos-next.jpg');
+}
+
+.pane-catetorias-producto .jcarousel-skin-default .jcarousel-prev {
+background-image: url('../images/jcarousel-productos-prev.jpg');
+}
+
+.pane-blog .jcarousel-skin-default .jcarousel-next{
+ background-image: url('../images/jcarousel-blog-next.jpg');
+}
+
+.pane-blog .jcarousel-skin-default .jcarousel-prev {
+background-image: url('../images/jcarousel-blog-prev.jpg');
+}
+
+.pane-catetorias-producto .jcarousel-item-horizontal,
+.pane-blog .jcarousel-item-horizontal{
+	text-align: left;
+	margin: 0;
+}
+
+.pane-catetorias-producto .jcarousel-item-2,
+.pane-catetorias-producto .jcarousel-item-5,
+.pane-catetorias-producto .jcarousel-item-8,
+.pane-catetorias-producto .jcarousel-item-11,
+.pane-catetorias-producto .jcarousel-item-14,
+.pane-catetorias-producto .jcarousel-item-17,
+.pane-catetorias-producto .jcarousel-item-20,
+.pane-catetorias-producto .jcarousel-item-23,
+.pane-catetorias-producto .jcarousel-item-26,
+.pane-catetorias-producto .jcarousel-item-29,
+.pane-catetorias-producto .jcarousel-item-32,
+.pane-catetorias-producto .jcarousel-item-35,
+.pane-catetorias-producto .jcarousel-item-38,
+.pane-catetorias-producto .jcarousel-item-41{
+	padding-left: 25px;
+}
+
+.pane-catetorias-producto .jcarousel-item-3,
+.pane-catetorias-producto .jcarousel-item-6,
+.pane-catetorias-producto .jcarousel-item-9,
+.pane-catetorias-producto .jcarousel-item-12,
+.pane-catetorias-producto .jcarousel-item-15,
+.pane-catetorias-producto .jcarousel-item-18,
+.pane-catetorias-producto .jcarousel-item-21,
+.pane-catetorias-producto .jcarousel-item-24,
+.pane-catetorias-producto .jcarousel-item-27,
+.pane-catetorias-producto .jcarousel-item-30,
+.pane-catetorias-producto .jcarousel-item-33,
+.pane-catetorias-producto .jcarousel-item-36,
+.pane-catetorias-producto .jcarousel-item-39,
+.pane-catetorias-producto .jcarousel-item-41 {
+	padding-left: 50px;
+}
+
+.pane-blog .jcarousel-item-2,
+.pane-blog .jcarousel-item-5,
+.pane-blog .jcarousel-item-8,
+.pane-blog .jcarousel-item-11,
+.pane-blog .jcarousel-item-14,
+.pane-blog .jcarousel-item-17,
+.pane-blog .jcarousel-item-20,
+.pane-blog .jcarousel-item-23,
+.pane-blog .jcarousel-item-26,
+.pane-blog .jcarousel-item-29,
+.pane-blog .jcarousel-item-32,
+.pane-blog .jcarousel-item-35,
+.pane-blog .jcarousel-item-38,
+.pane-blog .jcarousel-item-41{
+	padding-left: 25px;
+}
+
+.pane-blog .jcarousel-item-3,
+.pane-blog .jcarousel-item-6,
+.pane-blog .jcarousel-item-9,
+.pane-blog .jcarousel-item-12,
+.pane-blog .jcarousel-item-15,
+.pane-blog .jcarousel-item-18,
+.pane-blog .jcarousel-item-21,
+.pane-blog .jcarousel-item-24,
+.pane-blog .jcarousel-item-27,
+.pane-blog .jcarousel-item-30,
+.pane-blog .jcarousel-item-33,
+.pane-blog .jcarousel-item-36,
+.pane-blog .jcarousel-item-39,
+.pane-blog .jcarousel-item-41 {
+	padding-left: 50px;
+}
+
+.pane-catetorias-producto .jcarousel-item .views-field-field-image img{
+	border: 1px solid #ddd;
+}
+
+.pane-catetorias-producto .jcarousel-item .views-field-name h3,
+.pane-blog .jcarousel-item .views-field-title h3{
+	font-family: 'Roboto', serif;
+	font-size: 19px;
+	text-transform: uppercase;
+	padding-right: 20px;
+	margin: 0.7em 0 .7em;
+	height: 55px;
+}
+
+.pane-catetorias-producto .jcarousel-item .views-field-name h3 a{
+	color: #01A2D2;
+}
+
+.pane-blog .jcarousel-item .views-field-title h3 a{
+	color: #1C75B8;
+}
+
+.panels-flexible-row.panels-flexible-row-home_page-1.clearfix.gu.bloque-proyectos-servicios {
+margin-bottom: 75px;
+}
+
+.panels-flexible-row.panels-flexible-row-home_page-2.clearfix.gu.bloque-nuestros-servicios {
+	padding-bottom: 47px;
+
 }
