@@ -549,6 +549,7 @@ h1#page-title{
     font-style: normal;
     text-transform: uppercase;
     margin-bottom: 38px;
+    margin-top: 14px;
 }
 
 .field-name-body{
@@ -1168,7 +1169,7 @@ h2#title-proyectos-servicios,
 	color: #01A2D2;
     font-family: "Roboto",sans-serif;
 	font-weight: 700;
-
+font-size: 27px;
 	text-transform: uppercase;
 	margin: 0;
 
@@ -1211,7 +1212,7 @@ h2#title-proyectos-servicios,
 
 .node-producto.node-teaser .field-name-body {
 	padding-top: 16px;
-	height: 315px;
+	height: 310px;
 }
 
 .node-producto.node-teaser .field-name-body p {
@@ -1559,4 +1560,13 @@ margin-bottom: 75px;
 .panels-flexible-row.panels-flexible-row-home_page-2.clearfix.gu.bloque-nuestros-servicios {
 	padding-bottom: 47px;
 
+}
+
+
+.view-id-proyectos_y_servicios.page-proyectos-y-servicios h1#page-title{
+	margin-bottom: 60px;
+}
+
+.taxonomy-term.vocabulary-categoria-productos .taxonomy-term-description {
+    margin: 5px 0 45px;
 }
