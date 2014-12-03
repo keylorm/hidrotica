@@ -857,13 +857,17 @@ h2#title-proyectos-servicios,
     padding-right: 20px;
 }
 
-.node-type-proyectos-y-servicios .field-name-enlace-contacto{
+.node-type-proyectos-y-servicios .field-name-enlace-contacto,
+.node-type-producto .field-name-enlace-contacto,
+.page-taxonomy-term .field-name-enlace-contacto{
 	width: 50%;
 	padding-left: 2.5%;
 	float: right;	
 }
 
-.node-type-proyectos-y-servicios .field-name-enlace-contacto p{
+.node-type-proyectos-y-servicios .field-name-enlace-contacto p,
+.node-type-producto .field-name-enlace-contacto p,
+.page-taxonomy-term .field-name-enlace-contacto p{
 	 color: #01A2D2;
     display: block;
     float: left;
@@ -876,7 +880,9 @@ h2#title-proyectos-servicios,
     margin: 0 0 20px 0;
 }
 
-.node-type-proyectos-y-servicios .field-name-enlace-contacto a{
+.node-type-proyectos-y-servicios .field-name-enlace-contacto a,
+.node-type-producto .field-name-enlace-contacto a,
+.page-taxonomy-term .field-name-enlace-contacto a{
 	width: 142px;
 	height: 32px;
 	display: block;
@@ -893,7 +899,9 @@ h2#title-proyectos-servicios,
     -webkit-transition: all 0.3s ease 0s; /* For Safari 3.1 to 6.0 */
 }
 
-.node-type-proyectos-y-servicios .field-name-enlace-contacto a:hover{
+.node-type-proyectos-y-servicios .field-name-enlace-contacto a:hover,
+.node-type-producto .field-name-enlace-contacto a:hover,
+.page-taxonomy-term .field-name-enlace-contacto a:hover{
 	transform: translate(0px,-2px);
 	ms-transform: translate(0px, -2px); /* IE 9 */
     -webkit-transform: translate(0px, -2px);
@@ -918,6 +926,7 @@ h2#title-proyectos-servicios,
 
 .node-type-proyectos-y-servicios .field-name-body h3,
 .node-type-proyectos-y-servicios .marcas h3,
+.page-taxonomy-term .marcas h3,
 .page-taxonomy-term .vocabulary-categoria-productos .marcas h3{
 	color: #01A2D2;
     font-family: "Open Sans",sans-serif;
@@ -986,7 +995,9 @@ h2#title-proyectos-servicios,
 
 .view-id-catetorias_producto .views-row .views-field-description-1 p,
 .pane-catetorias-producto .jcarousel-item .views-field-description p,
-.pane-blog .jcarousel-item .views-field-body p {
+.pane-blog .jcarousel-item .views-field-body p,
+.vocabulary-categoria-productos .taxonomy-term-description p,
+.node-type-producto .views-field-description p {
 	margin-top: 0;
 	color: #58595B;
     font-family: "Roboto",sans-serif;
@@ -1165,7 +1176,9 @@ h2#title-proyectos-servicios,
 	margin: 0.8em 0;
 	padding: 0.6em 0.5em 1.2em 0.5em;
 }
-.taxonomy-term.vocabulary-categoria-productos .field-name-title h2{
+
+.taxonomy-term.vocabulary-categoria-productos .field-name-title h2,
+.node-type-producto .views-field-field-categoria h2{
 	color: #01A2D2;
     font-family: "Roboto",sans-serif;
 	font-weight: 700;
@@ -1559,8 +1572,54 @@ margin-bottom: 75px;
 
 .panels-flexible-row.panels-flexible-row-home_page-2.clearfix.gu.bloque-nuestros-servicios {
 	padding-bottom: 47px;
-
 }
+
+
+/* Nivel 2 - Productos */
+
+#block-block-6 h1,
+.bloque-encabezado-producto h1 {
+	margin-bottom: 0px !important;
+	margin-top: 0px;
+}
+
+.vocabulary-categoria-productos h2 ,
+.node-type-producto .views-field-field-categoria h2{
+	font-size: 27px;
+	text-transform: uppercase;
+	margin: 0 0 20px 0;
+}
+
+/* flexslider - imagenes */
+.node-type-producto .flexslider img{
+	border: 1px solid #ddd;
+}
+
+.node-type-producto .views-field-description p {
+	margin-bottom: 30px;
+}
+
+.node-type-producto .field-name-title h3,
+.field-name-field-detalle-producto-categoria h3,
+.field-name-field-detalle-producto-categoria h3 b,
+.field-name-field-detalle-producto-categoria h3 b span {
+	margin: 0;
+	font-family: 'Roboto', serif !important;
+	font-weight: 700;
+	color: #58595B;
+	text-transform: uppercase;
+	font-size: 27px !important;
+	line-height: 25px;
+	margin-top: -4px;
+}
+
+.node-type-producto .field-name-body,
+.field-name-field-detalle-producto-categoria {
+	padding-top: 5px;
+	min-height: 250px;
+	
+}
+
 
 
 .view-id-proyectos_y_servicios.page-proyectos-y-servicios h1#page-title{
@@ -1569,4 +1628,65 @@ margin-bottom: 75px;
 
 .taxonomy-term.vocabulary-categoria-productos .taxonomy-term-description {
     margin: 5px 0 45px;
+
+}
+.page-taxonomy-term .ds-2col-stacked > .group-left,
+.page-taxonomy-term .ds-2col-stacked > .group-right {
+	width: 49%;
+}
+
+.page-taxonomy-term .ds-2col-stacked > .group-left {
+	margin-right: 10px;
+	margin-top: 12px;
+}
+
+.node-type-producto .field-name-body p,
+.node-type-producto .field-name-body p span,
+.node-type-producto .field-name-body li,
+.node-type-producto .field-name-body li span,
+.field-name-field-detalle-producto-categoria p,
+.field-name-field-detalle-producto-categoria p span,
+.field-name-field-detalle-producto-categoria li,
+.field-name-field-detalle-producto-categoria li span {
+	font-family: 'Roboto', serif !important;
+	font-weight: 300;
+	color: #58595B;
+	font-size: 15px !important;
+}
+
+.node-type-producto .field-name-body li {
+	margin-bottom: 10px;
+}
+
+.node-type-producto .field-name-body p b,
+.node-type-producto .field-name-body p b span {
+	color: #000;
+	font-weight: 600;
+}
+
+/* Ajustar el margen del bloque izq del layout */
+.node-type-producto .panel-col-first .inside {
+	margin: 0 1em .5em 0;
+}
+
+/* */
+
+.node-type-producto .field-name-enlace-contacto,
+.page-taxonomy-term .field-name-enlace-contacto {
+	width: 100%;
+	padding-left: 0;
+	margin-top: 100px;
+}
+
+.node-type-producto .field-name-enlace-contacto p,
+.page-taxonomy-term .field-name-enlace-contacto p {
+	padding: 0;
+	color: #00B052;
+}
+
+.node-type-producto .field-name-enlace-contacto a,
+.page-taxonomy-term .field-name-enlace-contacto a {
+	float: right;
+	background-color: #00B052;
+
 }
