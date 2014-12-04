@@ -1690,3 +1690,270 @@ margin-bottom: 75px;
 	background-color: #00B052;
 
 }
+
+.page-taxonomy-term-2 #block-block-6 h1,{
+	
+}
+
+.title-box-noticias-promociones h1#page-title{
+    font-family: 'Roboto', sans-serif ;
+	font-weight: 700;
+	color: #01A2D2;
+	font-size: 34px ;
+	text-transform:  uppercase;
+}
+
+.view-display-id-pagina_noticias_promociones .views-field-title{
+	margin-bottom: 8px;
+}
+
+.view-display-id-pagina_noticias_promociones .views-field-title a{
+	font-family: 'Roboto', sans-serif ;
+	font-weight: 700;
+	color: #373739;
+	font-size: 24px ;
+}
+
+.view-display-id-pagina_noticias_promociones .views-field-created{
+	width: 120px;
+	float: left;
+	padding-left: 26px;
+	font-family: 'Roboto', sans-serif ;
+	font-weight: 300;
+	color: #58595B;
+	line-height: 24px;
+	font-size: 11px ;
+	height: 24px;	
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-position: left center;
+	background-image: url(../images/bg-fecha-blog.png);
+	margin-bottom: 25px;
+}
+
+.view-display-id-pagina_noticias_promociones .views-field-comment-count{
+	width: 120px;
+	float: left;
+	padding-left: 26px;
+	font-family: 'Roboto', sans-serif ;
+	font-weight: 300;
+	line-height: 24px;
+	color: #58595B;
+	font-size: 11px ;
+	height: 24px;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-position: left center;
+	background-image: url(../images/bg-comentarios-count-blog.png);
+	margin-bottom: 25px;
+}
+
+.view-display-id-pagina_noticias_promociones .views-field-sharethis .compartir-correo{
+	font-family: 'Roboto', sans-serif ;
+	font-weight: 700;
+	line-height: 11px;
+	color: #01A2D2;
+	font-size: 11px ;
+	text-transform: uppercase;
+	line-height: 24px;
+	float: left;
+}
+
+.view-display-id-pagina_noticias_promociones .views-field-sharethis {
+	width: 165px;
+	float: right;
+	margin-bottom: 25px;
+	height: 24px;
+	
+}
+
+.view-display-id-pagina_noticias_promociones .views-field-sharethis .stButton .email{
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-position: left center;
+	background-image: url(../images/bg-compartir-correo-blog.png);
+	height: 14px;
+    line-height: 20px;
+    padding-left: 20px;
+}
+
+.view-display-id-pagina_noticias_promociones .views-field-sharethis .sharethis-wrapper{
+	float: left;
+	width: 30px;
+}
+
+.view-display-id-pagina_noticias_promociones .views-field-body p{
+	margin: 0;
+}
+
+.view-display-id-pagina_noticias_promociones .views-field-body p,
+.view-display-id-pagina_noticias_promociones .views-field-body {
+	font-family: 'Roboto', sans-serif ;
+	font-weight: 300;
+	line-height: 22px;
+	color: #58595B;
+	font-size: 16px ;
+
+}
+
+.view-display-id-pagina_noticias_promociones .views-field-body{
+	margin-bottom: 15px;
+}
+
+
+.view-display-id-pagina_noticias_promociones .views-field-field-image{
+	margin-bottom: 15px;
+}
+
+.view-display-id-pagina_noticias_promociones .views-field-path{
+	margin-bottom: 20px;
+}
+
+
+.view-display-id-pagina_noticias_promociones .views-field-path a{
+	background-color: #01a2d2;
+    border-radius: 8px;
+    color: #ffffff;
+    display: block;
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 96px;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s; /* For Safari 3.1 to 6.0 */
+}
+
+.view-display-id-pagina_noticias_promociones .views-field-path a:hover{
+	transform: translate(0px,-2px);
+	ms-transform: translate(0px, -2px); /* IE 9 */
+    -webkit-transform: translate(0px, -2px);
+}
+
+.view-display-id-pagina_noticias_promociones .views-row {
+	border-bottom: 1px solid #C8C8C8 ;
+	margin-bottom: 32px;
+}
+
+.page-noticias-y-promociones .main{
+	padding: 0;
+}
+
+.page-noticias-y-promociones.one-sidebar #sidebar-first{
+	padding: 0;
+}
+
+#block-views-blog-bloque-noticias-recientes,
+#block-views-blog-bloque-ultimas-promociones{
+	background-color: #fafafa;
+	margin-bottom: 25px;
+	width: 100%;
+	padding: 25px 0;
+	float: left;
+}
+
+#block-views-blog-bloque-noticias-recientes h2,
+#block-views-blog-bloque-ultimas-promociones h2{
+	color: #01a2d2;
+    font-family: "Roboto",sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 16px;
+    margin: 0 20px 25px;
+    text-transform: uppercase;
+}
+
+#block-views-blog-bloque-noticias-recientes .views-row,
+#block-views-blog-bloque-ultimas-promociones .views-row{
+	width: 100%;
+	border-bottom: 1px solid #EDEEEE;
+	float: left;
+	padding: 0 20px 15px;
+	margin-bottom: 20px;
+	height: 102px;
+}
+
+
+#block-views-blog-bloque-noticias-recientes .views-row .contenedor-resumen-blog,
+#block-views-blog-bloque-ultimas-promociones .views-row .contenedor-resumen-blog{
+	
+	padding: 0;
+}
+
+#block-views-blog-bloque-noticias-recientes .views-row .contenedor-resumen-blog .imagen,
+#block-views-blog-bloque-ultimas-promociones .views-row .contenedor-resumen-blog .imagen{
+	padding: 0;
+	width: 30%;
+	float: left;
+	
+}
+
+#block-views-blog-bloque-noticias-recientes .views-row .contenedor-resumen-blog .detalle-blog,
+#block-views-blog-bloque-ultimas-promociones .views-row .contenedor-resumen-blog .detalle-blog{
+	width: 66%;
+	float: right;
+	padding: 0;
+}
+
+#block-views-blog-bloque-noticias-recientes .views-row .contenedor-resumen-blog .detalle-blog h3,
+#block-views-blog-bloque-ultimas-promociones .views-row .contenedor-resumen-blog .detalle-blog h3{
+	color: #373739;
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-bottom: 5px;
+    margin-top: 0;
+    padding: 0;
+}
+
+#block-views-blog-bloque-noticias-recientes .views-row .contenedor-resumen-blog .detalle-blog h3 a,
+#block-views-blog-bloque-ultimas-promociones .views-row .contenedor-resumen-blog .detalle-blog h3 a{
+	color: #373739;
+}
+
+#block-views-blog-bloque-noticias-recientes .views-row .contenedor-resumen-blog .detalle-blog .fecha-comentarios,
+#block-views-blog-bloque-ultimas-promociones .views-row .contenedor-resumen-blog .detalle-blog .fecha-comentarios{
+	color: #58595B;
+    font-family: "Roboto",sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 13px;
+}
+
+#block-views-blog-bloque-noticias-recientes .views-row .contenedor-resumen-blog .detalle-blog .fecha-comentarios span,
+#block-views-blog-bloque-ultimas-promociones .views-row .contenedor-resumen-blog .detalle-blog .fecha-comentarios span{
+	display: inline;
+    float: none;
+    padding: 0;
+    width: auto;
+}
+
+#block-views-blog-bloque-noticias-recientes .views-row .contenedor-resumen-blog .detalle-blog .fecha-comentarios span.fecha-creacion,
+#block-views-blog-bloque-ultimas-promociones .views-row .contenedor-resumen-blog .detalle-blog .fecha-comentarios span.fecha-creacion{
+	padding-right: 3px;
+}
+#block-views-blog-bloque-noticias-recientes .views-row .contenedor-resumen-blog .detalle-blog .fecha-comentarios span.conteo-comentarios,
+#block-views-blog-bloque-ultimas-promociones .views-row .contenedor-resumen-blog .detalle-blog .fecha-comentarios span.conteo-comentarios{
+	padding-left: 3px;
+}
+
+#block-views-blog-bloque-noticias-recientes .views-row .contenedor-resumen-blog .detalle-blog .descripcion-blog ,
+#block-views-blog-bloque-ultimas-promociones .views-row .contenedor-resumen-blog .detalle-blog .descripcion-blog {
+	padding: 0;
+
+}
+
+#block-views-blog-bloque-noticias-recientes .views-row .contenedor-resumen-blog .detalle-blog .descripcion-blog p,
+#block-views-blog-bloque-ultimas-promociones .views-row .contenedor-resumen-blog .detalle-blog .descripcion-blog p{
+	margin: 5px 0 0 0;
+	color:#58595B;
+	font-family: "Roboto",sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+}
+

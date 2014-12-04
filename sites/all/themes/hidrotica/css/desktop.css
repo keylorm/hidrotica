@@ -186,5 +186,20 @@ height: 85px;
 
 }
 
+.title-box-noticias-promociones {
+    
+}
+
+.page-noticias-y-promociones .main{
+	padding: 0;
+	width: 64%;
+}
+
+.page-noticias-y-promociones.one-sidebar #sidebar-first{
+	padding: 0;
+	width: 32%;
+
+}
+
 
 }

@@ -72,11 +72,15 @@
   </section>
 <?php endif; // end Above Content ?>
 
+
+
+
 <div class="main-content">
   <?php if ($breadcrumb): ?>
     <?php print $breadcrumb; ?>
   <?php endif; ?>
 
+  
   <?php if ($page['highlighted']): ?>
     <?php print render($page['highlighted']); ?>
   <?php endif; ?>
@@ -86,13 +90,20 @@
       <?php if (isset($node) && $node->type == "proyectos_y_servicios"):?>
            <h2 id="title-proyectos-servicios"><?php print "PROYECTOS Y SERVICIOS"; ?></h2>
       <?php elseif (isset($node) && $node->type == "blog"): ?>
-           <h1 id="title-noticias-promociones"><?php print "Noticias y Promociones"; ?></h1>
+           
       <?php endif; ?>
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
           <?php if (isset($node) && ($node->type != "proyectos_y_servicios" && $node->type != "producto")):?>
            <h1 class="title" id="page-title"><?php print $title; ?></h1>
           <?php endif; ?>
+          <?php if ($title=="Noticias y Promociones"){?>
+            <div class="title-box-noticias-promociones">             
+                <h1 class="title" id="page-title"><?php print $title; ?></h1>
+            </div>
+
+          <?php }?>
+          
         <?php endif; ?>
       <?php print render($title_suffix); ?>
 
