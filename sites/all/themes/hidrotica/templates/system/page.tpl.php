@@ -90,7 +90,7 @@
       <?php if (isset($node) && $node->type == "proyectos_y_servicios"):?>
            <h2 id="title-proyectos-servicios"><?php print "PROYECTOS Y SERVICIOS"; ?></h2>
       <?php elseif (isset($node) && $node->type == "blog"): ?>
-           
+           <h2 id="title-blog"><?php print "NOTICIAS Y PROMOCIONES"; ?></h2>
       <?php endif; ?>
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>

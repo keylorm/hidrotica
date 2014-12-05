@@ -190,12 +190,14 @@
 }
 
 
-.page-noticias-y-promociones .main{
+.page-noticias-y-promociones .main,
+.node-type-blog .main{
 	padding: 0;
 	width: 64%;
 }
 
-.page-noticias-y-promociones.one-sidebar #sidebar-first{
+.page-noticias-y-promociones.one-sidebar #sidebar-first,
+.node-type-blog.one-sidebar #sidebar-first{
 	padding: 0;
 	width: 32%;
 

@@ -84,7 +84,8 @@ a:hover{
 	display: none;
 }
 
-.pre-header .pre-header-grid #block-search-form #edit-actions{
+.pre-header .pre-header-grid #block-search-form #edit-actions,
+.pre-header .pre-header-grid #block-search-form #edit-actions--2{
 	position: absolute;
     right: 6px;
     top: 3px;
@@ -250,7 +251,7 @@ a:hover{
     width: 100%;
 	margin: 0;
 	background-color: #414042;
-	min-height: 520px;
+	min-height: 200px;
 	padding-top: 26px;
 }
 
@@ -1714,7 +1715,8 @@ margin-bottom: 75px;
 	font-size: 24px ;
 }
 
-.view-display-id-pagina_noticias_promociones .views-field-created{
+.view-display-id-pagina_noticias_promociones .views-field-created,
+.node-type-blog .field-name-post-date{
 	width: 120px;
 	float: left;
 	padding-left: 26px;
@@ -1731,7 +1733,8 @@ margin-bottom: 75px;
 	margin-bottom: 25px;
 }
 
-.view-display-id-pagina_noticias_promociones .views-field-comment-count{
+.view-display-id-pagina_noticias_promociones .views-field-comment-count,
+.node-type-blog .field-name-contador-comentarios{
 	width: 120px;
 	float: left;
 	padding-left: 26px;
@@ -1748,7 +1751,8 @@ margin-bottom: 75px;
 	margin-bottom: 25px;
 }
 
-.view-display-id-pagina_noticias_promociones .views-field-sharethis .compartir-correo{
+.view-display-id-pagina_noticias_promociones .views-field-sharethis .compartir-correo,
+.node-type-blog .sharethis-buttons span{
 	font-family: 'Roboto', sans-serif ;
 	font-weight: 700;
 	line-height: 11px;
@@ -1759,7 +1763,8 @@ margin-bottom: 75px;
 	float: left;
 }
 
-.view-display-id-pagina_noticias_promociones .views-field-sharethis {
+.view-display-id-pagina_noticias_promociones .views-field-sharethis,
+.node-type-blog .sharethis-buttons  {
 	width: 165px;
 	float: right;
 	margin-bottom: 25px;
@@ -1767,7 +1772,8 @@ margin-bottom: 75px;
 	
 }
 
-.view-display-id-pagina_noticias_promociones .views-field-sharethis .stButton .email{
+.view-display-id-pagina_noticias_promociones .views-field-sharethis .stButton .email,
+.node-type-blog .sharethis-buttons  .stButton .email{
 	background-repeat: no-repeat;
 	background-color: transparent;
 	background-position: left center;
@@ -1776,8 +1782,12 @@ margin-bottom: 75px;
     line-height: 20px;
     padding-left: 20px;
 }
-
-.view-display-id-pagina_noticias_promociones .views-field-sharethis .sharethis-wrapper{
+.node-type-blog .sharethis-buttons  .stButton .email{
+	float: none;
+	line-height: 16px;
+}
+.view-display-id-pagina_noticias_promociones .views-field-sharethis .sharethis-wrapper,
+.node-type-blog .sharethis-buttons .sharethis-wrapper{
 	float: left;
 	width: 30px;
 }
@@ -1838,11 +1848,13 @@ margin-bottom: 75px;
 	margin-bottom: 32px;
 }
 
-.page-noticias-y-promociones .main{
+.page-noticias-y-promociones .main,
+.node-type-blog .main{
 	padding: 0;
 }
 
-.page-noticias-y-promociones.one-sidebar #sidebar-first{
+.page-noticias-y-promociones.one-sidebar #sidebar-first,
+.node-type-blog.one-sidebar #sidebar-first{
 	padding: 0;
 }
 
@@ -1851,7 +1863,7 @@ margin-bottom: 75px;
 	background-color: #fafafa;
 	margin-bottom: 25px;
 	width: 100%;
-	padding: 25px 0;
+	padding: 25px 0 10px;
 	float: left;
 }
 
@@ -1876,6 +1888,12 @@ margin-bottom: 75px;
 	height: 102px;
 }
 
+#block-views-blog-bloque-noticias-recientes .views-row.views-row-last,
+#block-views-blog-bloque-ultimas-promociones .views-row.views-row-last{
+	border-bottom: 0px;
+	margin-bottom: 0;
+}
+
 
 #block-views-blog-bloque-noticias-recientes .views-row .contenedor-resumen-blog,
 #block-views-blog-bloque-ultimas-promociones .views-row .contenedor-resumen-blog{
@@ -1888,7 +1906,7 @@ margin-bottom: 75px;
 	padding: 0;
 	width: 30%;
 	float: left;
-	
+
 }
 
 #block-views-blog-bloque-noticias-recientes .views-row .contenedor-resumen-blog .detalle-blog,
@@ -1957,3 +1975,133 @@ margin-bottom: 75px;
     line-height: 14px;
 }
 
+
+.view-display-id-pagina_noticias_promociones .pager{
+	margin-bottom: 50px;
+
+}
+
+.view-display-id-pagina_noticias_promociones .pager li{
+	padding: 5px 15px;
+	background-color: #f4f4f4;
+	border-radius: 5px;
+	font-family: "Roboto",sans-serif;
+	font-weight: 400;
+	margin: 0 5px;
+	color:#58595B;
+}
+
+.view-display-id-pagina_noticias_promociones .pager li a{
+	
+	color:#58595B;
+}
+
+.view-display-id-pagina_noticias_promociones .pager li a:hover{
+	
+	color:#01a2d2;
+}
+
+.view-display-id-pagina_noticias_promociones .pager li.pager-current{
+	color:#01a2d2;
+	font-weight: 700;
+} 
+
+#title-blog{
+		color: #01a2d2;
+    font-family: "Roboto",sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+     line-height: 35px;
+    margin-bottom: 38px;
+    margin-top: 14px;
+}
+
+.node-type-blog .field-name-title {
+	display: none;
+}
+
+.node-type-blog h1#page-title{
+	color: #373739;
+    font-family: "Roboto",sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 11px;
+    text-transform: none;
+    line-height: 30px;
+}
+
+.node-type-blog .flexslider {
+	clear: both;
+	margin-bottom: 0;
+}
+
+.node-type-blog .field-name-body{
+	padding-top: 15px;
+}
+
+.node-type-blog .field-name-body p{
+	color: #58595B;
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.node-type-blog .field-name-sharethisfull .stButton .stFb,
+.node-type-blog .field-name-sharethisfull .stButton .stTwbutton,
+.node-type-blog .field-name-sharethisfull .stButton .stMainServices
+{
+	height: 26px;
+}
+
+.node-type-blog .field-name-sharethisfull .stButton .stButton_gradient{
+	height: 23px;
+}
+
+.node-type-blog #comments{
+	margin-top: 50px;
+
+}
+
+.node-type-blog #comments h2{
+	color: #01A2D2;
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.node-type-blog #comments .comment {
+	background-color: #EDEEEE;
+	border-right: 5px solid #01A2D2;
+	padding: 18px 30px 15px;
+	margin-bottom: 40px;
+}
+
+.node-type-blog #comments .comment .mensaje-mas-autor {
+	color: #58595B;
+    font-family: "Roboto",sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.node-type-blog #comments .comment .mensaje-mas-autor .nombre-autor{
+	color: #01A2D2;
+    font-family: "Roboto",sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.node-type-blog #comments .comment:before {
+	background-color: transparent;
+    background-image: url("../images/flecha-comentarios.png");
+    background-position: 28px bottom;
+    background-repeat: no-repeat;
+    color: #fff;
+    content: ".";
+    display: block;
+    float: left;
+    margin-left: -30px;
+    margin-top: -45px;
+    padding: 0;
+    width: 100px;
+}
