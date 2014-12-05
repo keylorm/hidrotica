@@ -172,7 +172,7 @@ function hidrotica_form_comment_form_alter(&$form, &$form_state, &$form_id) {
     $form['field_email'][LANGUAGE_NONE][0]['#attributes']['placeholder'] = t( 'Email:' );
     $form['comment_body'][LANGUAGE_NONE][0]['#attributes']['placeholder'] = t( 'Comment:' );
   }
-dpm($form);
+
     $form['author']['name']['#attributes']['placeholder'] = t( 'Name:');
     $form['field_email'][LANGUAGE_NONE][0]['#attributes']['placeholder'] = t( 'Email:' );
     $form['comment_body'][LANGUAGE_NONE][0]['#attributes']['placeholder'] = t( 'Comment:' );
