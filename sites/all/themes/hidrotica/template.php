@@ -168,10 +168,14 @@ function hidrotica_form_comment_form_alter(&$form, &$form_state, &$form_id) {
   //agregar atributo placeholder al campo subject
   if(isset($form['author']['name']['#value'])){
     $name = $form['author']['name']['#value'];
-    $form['author']['name']['#attributes']['placeholder'] = t( $name );
-    $form['author']['mail']['#attributes']['placeholder'] = t( 'Email:' );
+    $form['author']['name']['#attributes']['placeholder'] = t( $name);
+    $form['field_email'][LANGUAGE_NONE][0]['#attributes']['placeholder'] = t( 'Email:' );
     $form['comment_body'][LANGUAGE_NONE][0]['#attributes']['placeholder'] = t( 'Comment:' );
   }
+dpm($form);
+    $form['author']['name']['#attributes']['placeholder'] = t( 'Name:');
+    $form['field_email'][LANGUAGE_NONE][0]['#attributes']['placeholder'] = t( 'Email:' );
+    $form['comment_body'][LANGUAGE_NONE][0]['#attributes']['placeholder'] = t( 'Comment:' );
 
   unset ($form['actions']['preview']);
   $form['actions']['submit']['#value'] = t('Send');
