@@ -2197,4 +2197,50 @@ margin-bottom: 75px;
     font-size: 17px;
     font-weight: 300;		
 }
+
+.panels-flexible-contacto .panels-flexible-row{
+	padding-bottom: 30px;
+}
+
+.panels-flexible-row-contacto-main-row{
+	border-top: solid 1px #01A2D2;
+
+}
+
+.prefooter-sucursales-box{
+	margin-bottom: 40px;
+}
+.link-tel{
+	color: #FFF !important;
+}
+.panels-flexible-row-contacto-main-row .sucursal{
+	width: 32.6%;
+	float: left;
+	background-color: #01A2D2;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	color: #FFF;
+	margin-right:  1%;	
+}
+.panels-flexible-row-contacto-main-row .sucursal3{
+	margin-right: 0px;
+}
+.panels-flexible-row-contacto-main-row .sucursal .link-mapa{
+	width: 60px;
+	padding-top:  30px;
+	padding-left: 7px;
+	float: left;
+}
+.panels-flexible-row-contacto-main-row .sucursal .link-mapa img{
+
+}
+.panels-flexible-row-contacto-main-row .sucursal .info-sucursal{
+	float: left;
+}
+.panels-flexible-row-contacto-main-row .sucursal .info-sucursal p{
+	line-height:  20px;
+	margin-bottom: 0.8em;
+}
+
 /**************************************/
