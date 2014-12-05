@@ -103,6 +103,12 @@
             </div>
 
           <?php }?>
+          <?php if ($title=="Contáctenos"){?>
+            <div class="title-box-noticias-promociones">             
+                <h1 class="title" id="page-title"><?php print $title; ?></h1>
+            </div>
+
+          <?php }?>
           
         <?php endif; ?>
       <?php print render($title_suffix); ?>
