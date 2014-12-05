@@ -1145,12 +1145,15 @@ h2#title-proyectos-servicios,
 .flex-direction-nav {
 display: none;
 }
-
-.slides li a .flex-caption {
+.slides li{
+	position: relative;
+}
+.slides li a .flex-caption-absoluto{
 	position: absolute;
-	top: 0px;
-	/*position: relative;*/
-	/*top: -292px;*/
+	width: 100%;
+	top: 40%;
+}
+.slides li a .flex-caption-absoluto .flex-caption {
 	width: 998px;
 	margin: 0 auto;
 	background-repeat: repeat-x;
