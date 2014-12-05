@@ -1142,9 +1142,15 @@ h2#title-proyectos-servicios,
 	width: 100%;
 }
 
-.flex-caption {
-	position: relative;
-	top: -292px;
+.flex-direction-nav {
+display: none;
+}
+
+.slides li a .flex-caption {
+	position: absolute;
+	top: 0px;
+	/*position: relative;*/
+	/*top: -292px;*/
 	width: 998px;
 	margin: 0 auto;
 	background-repeat: repeat-x;
@@ -2105,3 +2111,87 @@ margin-bottom: 75px;
     padding: 0;
     width: 100px;
 }
+
+
+
+/******* ANDREY :: 05-12-2014 *********/
+
+/* COMENTARIOS */
+
+#comment-form input.form-text,
+#comment-form textarea.form-textarea{
+	border:  solid 1px #CDCFD0;
+	padding-left: 10px;
+	padding-top: 10px;
+	font-family: "Roboto",sans-serif;
+	font-size: 13px;
+	color: #58595B;	
+}
+#comment-form input.form-text{
+	height: 45px;
+	width:  49%;
+	float: left;
+	padding-top: 0px;
+}
+#comment-form input#edit-name{
+	margin-right: 10px;
+}
+#comment-form #comment-body-add-more-wrapper{
+	float: left;
+	width: 100%;
+
+}
+
+#comment-form input#edit-submit,
+#webform-client-form-52 .form-submit{
+	width: 80px;
+	height: 32px;
+	background-color: #01A2D2;
+	border: none;
+	color: white;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: all 0.3s ease 0s;		
+}
+#comment-form input#edit-submit:hover,
+#webform-client-form-52 .form-submit:hover{
+	transform: translate(0px,-2px);
+	ms-transform: translate(0px, -2px);
+    -webkit-transform: translate(0px, -2px);
+}
+
+/* CONTACTO */
+
+#webform-client-form-52 .form-text,
+#webform-client-form-52 .form-select{
+	background-color: #EDEEEE;
+	width: 100%;
+	height: 53px;
+	border: none;
+	padding-left:  15px;
+	color: #58595B;
+    font-family: "Roboto",sans-serif;
+    font-size: 17px;
+    font-weight: 300;	
+}
+#webform-client-form-52 .form-select{
+	width: 100%;
+}
+#webform-client-form-52 .form-textarea{
+	background-color: #EDEEEE;
+	border: none;
+	padding-left:  15px;
+	padding-top: 15px;
+	color: #58595B;
+    font-family: "Roboto",sans-serif;
+    font-size: 17px;
+    font-weight: 300;		
+}
+/**************************************/
