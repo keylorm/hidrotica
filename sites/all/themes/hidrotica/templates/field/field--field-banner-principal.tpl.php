@@ -19,7 +19,7 @@
 	}
 
 	$imagen .= "<li>
-	     		 <a href=\"".$url."\"><img src=\"/sites/default/files/imagenes_banner/".$items[$i]['field_banner']['#items'][0]['filename']."\" /><div class=\"flex-caption\">".$caption."</div></a>
+	     		 <a href=\"".$url."\"><img src=\"/sites/default/files/imagenes_banner/".$items[$i]['field_banner']['#items'][0]['filename']."\" /><div class="flex-caption-absoluto"><div class=\"flex-caption\">".$caption."</div></div></a>
 	 		   </li>";
 } ?>
 <div class="<?php print $classes; ?>">
