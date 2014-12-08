@@ -10,7 +10,7 @@
 	}
 
 	$imagen .= "<li>
-	     		 <a href=\"".$url."\"><img src=\"/sites/default/files/imagen_certificado/".$items[$i]['field_image']['#items'][0]['filename']."\" /></a>
+	     		 <a href=\"".$url."\" target=\"_blank\"><img src=\"/sites/default/files/imagen_certificado/".$items[$i]['field_image']['#items'][0]['filename']."\" /></a>
 	 		   </li>";
 } ?>
 <div class="<?php print $classes; ?>">

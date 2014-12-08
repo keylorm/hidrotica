@@ -1287,17 +1287,18 @@ font-size: 27px;
 /* estilo carousel nuestros proyectos y servicios */
 .jcarousel-view--proyectos-y-servicios--block-1 .views-field-title h3{
 	font-family: 'Roboto', serif;
-	font-size: 18px;
+	font-size: 14px;
 	text-transform: uppercase;
 	padding: 0 10px 27px 10px;
 	letter-spacing: -0.8px;
-	line-height: 20px;
+	line-height: 16px;
+	font-weight: bold;
 	margin-top: 13px;
 	margin-bottom: 15px;
 	background-image: url("../images/borde-inferior-titulo-proyectos-home.png");
 	background-repeat: no-repeat;
 	background-position: bottom center;
-	min-height: 67px;
+	min-height: 75px;
 }
 
 .jcarousel-view--proyectos-y-servicios--block-1 .views-field-title a{
@@ -2171,7 +2172,9 @@ margin-bottom: 75px;
 }
 
 /* CONTACTO */
-
+.webform-component--nombre{
+	margin-top: 0px;
+}
 #webform-client-form-52 .form-text,
 #webform-client-form-52 .form-select{
 	background-color: #EDEEEE;
@@ -2313,6 +2316,12 @@ margin-bottom: 75px;
     font-size: 17px;
     font-weight: 300;	
 }
+#search-form .form-item-keys label{
+	color: #58595B;
+    font-family: "Roboto",sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+}
 #search-form .form-submit{
 	width: 80px;
 	height: 32px;
@@ -2331,7 +2340,13 @@ margin-bottom: 75px;
     outline: none;
     -webkit-transition: all 0.3s ease 0s;		
 }
-
+.page-search h1#page-title {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color: #01A2D2;
+	font-size: 34px;
+	text-transform: uppercase;
+}
 .search-results{
 	margin-left: 0px;
 	padding-left: 0px;
@@ -2339,19 +2354,44 @@ margin-bottom: 75px;
 .search-result{
 	margin-left: 0px;
 	padding-left: 0px;
+	font-family: 'Roboto', sans-serif;
+	border-bottom: 1px solid #C8C8C8;
 }
 .search-result .search-snippet-info{
 	margin-left: 0px;
 	padding-left: 0px;
 }
-.search-result .search-snippet-info p{
-	
-}
-.search-result h3.title{
 
+.search-result h3.title{
+	
+	font-weight: 400;
+	color: #373739;
+	font-size: 18px;
+	margin: 10px 0px;
+}
+.search-result .search-snippet-info p{
+	font-weight: 300;
+	color: #58595B;
+	font-size: 16px;
+	line-height:  18px;
 }
 .search-info{
 	display: none;
 }
-#373739
+
+
+
+
+.pane-catetorias-producto .jcarousel-item .views-field-description,
+.pane-catetorias-producto .jcarousel-item .views-field-name{
+	width: 281px;
+}
+
+.node-producto.node-teaser .field-name-body .field-items p{
+	margin-bottom: 0px;
+}
+.node-producto.node-teaser .field-name-body .field-items ul{
+	margin: 0px;
+
+}
 /**************************************/
