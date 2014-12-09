@@ -15,6 +15,9 @@
 } ?>
 <div class="<?php print $classes; ?>">
 	<div class="certificaciones">
+		<?php if($element['#object']->type == "proyectos_y_servicios"):?>
+		<h3>Certificados por:</h3>
+		<?php endif; ?>
 	  <ul class="listado">
 	    <?php print $imagen ?>
 	  </ul>

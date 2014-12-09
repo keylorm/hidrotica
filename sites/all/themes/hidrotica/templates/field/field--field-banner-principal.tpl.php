@@ -12,7 +12,7 @@
 
 	if (isset($items[$i]['field_descripcion']['#items'][0]['value'])){
 		if (strlen($items[$i]['field_descripcion']['#items'][0]['value']) > 87){
-			$caption = substr($items[$i]['field_descripcion']['#items'][0]['value'], 0, 87)."...";
+			$caption = substr($items[$i]['field_descripcion']['#items'][0]['value'], 0, 125)."...";
 		}else{
 			$caption = $items[$i]['field_descripcion']['#items'][0]['value'];
 		}

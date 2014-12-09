@@ -7,7 +7,7 @@ jQuery(window).load(function() {
   //flexslider banner principal
   jQuery('#banner-principal').flexslider({
         animation: 'slide',
-        slideshowSpeed: 3000,
+        slideshowSpeed: 6000,
         controlsContainer: ".flex-container",
     });
 

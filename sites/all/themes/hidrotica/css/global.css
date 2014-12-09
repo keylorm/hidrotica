@@ -928,7 +928,8 @@ h2#title-proyectos-servicios,
 .node-type-proyectos-y-servicios .field-name-body h3,
 .node-type-proyectos-y-servicios .marcas h3,
 .page-taxonomy-term .marcas h3,
-.page-taxonomy-term .vocabulary-categoria-productos .marcas h3{
+.page-taxonomy-term .vocabulary-categoria-productos .marcas h3,
+.node-type-proyectos-y-servicios .certificaciones h3{
 	color: #01A2D2;
     font-family: "Open Sans",sans-serif;
     font-size: 16px;
@@ -938,6 +939,9 @@ h2#title-proyectos-servicios,
 
 
 
+.node-type-proyectos-y-servicios .certificaciones h3{
+	text-transform: uppercase;
+}
 
 
 
@@ -1163,7 +1167,7 @@ display: none;
 .flex-caption p{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
-	font-size: 27px;
+	font-size: 22px;
 	line-height: 40px;
 	text-transform: uppercase;
 	padding: 16px 296px 16px 28px;
@@ -1598,7 +1602,7 @@ margin-bottom: 75px;
 .node-type-producto .views-field-field-categoria h2{
 	font-size: 27px;
 	text-transform: uppercase;
-	margin: 0 0 20px 0;
+	margin: 0 0 40px 0;
 }
 
 /* flexslider - imagenes */
@@ -2394,4 +2398,20 @@ margin-bottom: 75px;
 	margin: 0px;
 
 }
+
+
+/* style certificados por: */
+.node-type-proyectos-y-servicios .certificaciones {
+	background-color: #fff;
+}
+
+.node-type-proyectos-y-servicios .certificaciones .listado {
+	padding: 0;
+}
+
+.node-type-proyectos-y-servicios .certificaciones .listado li {
+	display: inline-block;
+	list-style: none;
+}
+
 /**************************************/
