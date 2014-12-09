@@ -22,10 +22,16 @@ $url = "";
 		$first=""; 
 	}
 
+	if($url != ''){
+		$imagen .= "<li class=\"logo-marca logo-marca-".($i+1)." ".$first." ".$last."\">
+		     		 <a href=\"".$url."\" target=\"_blank\"><img src=\"/sites/default/files/imagen_marca/".$items[$i]['field_image']['#items'][0]['filename']."\" /></a>
+		 		   </li>";
+	}else{
+		$imagen .= "<li class=\"logo-marca logo-marca-".($i+1)." ".$first." ".$last."\">
+     		 <img src=\"/sites/default/files/imagen_marca/".$items[$i]['field_image']['#items'][0]['filename']."\" />
+ 		   </li>";
+	}
 
-	$imagen .= "<li class=\"logo-marca logo-marca-".($i+1)." ".$first." ".$last."\">
-	     		 <a href=\"".$url."\" target=\"_blank\"><img src=\"/sites/default/files/imagen_marca/".$items[$i]['field_image']['#items'][0]['filename']."\" /></a>
-	 		   </li>";
 } ?>
 	<div class="marcas">
 		<h3>NUESTRAS MARCAS</h3>
